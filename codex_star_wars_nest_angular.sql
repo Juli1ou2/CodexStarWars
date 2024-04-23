@@ -1,0 +1,1 @@
+INSERT INTO `vehicule` (`id`, `nom`, `description`, `longueur`, `vitesse`, `classe`, `moteur`, `armes`, `image`, `type`) VALUES (NULL, 'Saak\'ak', 'Le Saak\'ak', '3356 m', '500 km/h', '...', 'Inconnu', 'Plein d\'armes', '...', 'Base militaire dans l\'espace.');
