@@ -1,4 +1,5 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Organisation as Organisation } from 'src/organisations/organisation.entity/organisation.entity';
+import { Entity, Column, PrimaryGeneratedColumn, ManyToMany, JoinTable } from 'typeorm';
 
 @Entity()
 export class Vehicule{
@@ -31,4 +32,8 @@ export class Vehicule{
 
     @Column({ length: 100 })
     type:string;
+
+    @ManyToMany(() => Organisation)
+    @JoinTable()
+    organisations: Organisation[]
 }
