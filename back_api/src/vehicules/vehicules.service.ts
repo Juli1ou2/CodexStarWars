@@ -12,13 +12,22 @@ export class VehiculesService {
         return await this.vehiculesRepository.find();
     }
 
+    // async getVehicule(_id: number): Promise<Vehicule> {
+    //     return await this.vehiculesRepository.findOneBy({
+    //         id: _id,
+    //         //relations: ["organisations"],
+    //     })[0];
+    // }
+
     async getVehicule(_id: number): Promise<Vehicule> {
-        return await this.vehiculesRepository.find({
-            where: [{ "id": _id }]
-        })[0];
+        return await this.vehiculesRepository.createQueryBuilder('vehicule')
+        .where('vehicule.id = :id', { id: _id })
+        .orderBy('vehicule.nom', 'ASC')
+        .leftJoinAndSelect('vehicule.organisations', 'organisation')
+        .getOne();
     }
 
-     async createVehicule(vehicule: Vehicule) {
+    async createVehicule(vehicule: Vehicule) {
         this.vehiculesRepository.save(vehicule)
     }
 
