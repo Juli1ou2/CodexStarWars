@@ -13,3 +13,8 @@ div {
 .connexion {
     height: 40px;
 }
+
+p {
+    font-family: 'DistantGalaxy';
+    color: aliceblue;
+}
