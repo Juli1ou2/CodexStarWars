@@ -1,17 +1,27 @@
 div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  img {
-    height: 100px;
-  }
+img {
+  height: 100px;
+}
 
-  p {
-    font-family: "DistantGalaxy";
-    color: black;
-    font-size: xx-large;
-    -webkit-text-stroke: thin #ead51eff;
-    text-align: center;
-  }
+p {
+  font-family: "DistantGalaxy";
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke: thin #ead51eff;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+div:hover {
+  background-color: aqua;
+  text-decoration: dashed;
+  /* border: rgb(75, 213, 238); */
 }
