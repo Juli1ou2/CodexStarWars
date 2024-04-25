@@ -25,13 +25,13 @@ export class PersonnagesController {
   }
 
   @Post()
-  create(@Body() typeuser: Personnage) {
-    return this.service.createPersonnage(typeuser);
+  create(@Body() personnage: Personnage) {
+    return this.service.createPersonnage(personnage);
   }
 
   @Put()
-  Update(@Body() typeuser: Personnage) {
-    return this.service.updatePersonnage(typeuser);
+  Update(@Body() personnage: Personnage) {
+    return this.service.updatePersonnage(personnage);
   }
 
   @Delete(':id')

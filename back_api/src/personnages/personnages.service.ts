@@ -29,6 +29,6 @@ export class PersonnagesService {
   }
 
   async deletePersonnage(personnage: Personnage) {
-    this.personnagesRepository.save(personnage);
+    this.personnagesRepository.delete(personnage);
   }
 }
