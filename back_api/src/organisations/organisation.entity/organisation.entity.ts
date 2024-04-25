@@ -1,3 +1,4 @@
+import { Astre } from 'src/astres/astre.entity/astre.entity';
 import { Vehicule } from 'src/vehicules/vehicule.entity/vehicule.entity';
 import { Entity, Column, PrimaryGeneratedColumn, ManyToMany } from 'typeorm';
 
@@ -17,4 +18,7 @@ export class Organisation {
 
   @ManyToMany(() => Vehicule, (vehicule) => vehicule.organisations)
   vehicules: Vehicule[];
+  
+  @ManyToMany(() => Astre, (astre) => astre.organisations)
+  astres: Astre[];
 }
