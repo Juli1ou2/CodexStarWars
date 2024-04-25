@@ -1,4 +1,5 @@
 
+import { Espece } from 'src/especes/espece.entity/espece.entity';
 import { Organisation } from 'src/organisations/organisation.entity/organisation.entity';
 import { Entity, Column, PrimaryGeneratedColumn, ManyToMany, JoinTable } from 'typeorm';
 
@@ -38,5 +39,7 @@ export class Astre {
   @JoinTable()
   organisations: Organisation[];
 
-
+  @ManyToMany(() => Espece, (espece) => espece.astres, {cascade: true})
+  @JoinTable()
+  especes: Espece[];
 }

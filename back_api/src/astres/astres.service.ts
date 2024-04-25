@@ -17,28 +17,28 @@ export class AstresService {
     return await this.astreRepository.find();
   }
 
-  async getVehicule(_id: number): Promise<Astre> {
-    return await this.vehiculesRepository
-      .createQueryBuilder('vehicule')
-      .where('vehicule.id = :id', { id: _id })
-      .orderBy('vehicule.nom', 'ASC')
-      .leftJoinAndSelect('vehicule.organisations', 'organisation')
+  async getAstre(_id: number): Promise<Astre> {
+    return await this.astreRepository
+      .createQueryBuilder('astre')
+      .where('astre.id = :id', { id: _id })
+      .orderBy('astre.nom', 'ASC')
+      .leftJoinAndSelect('astre.organisations', 'organisation')
       .getOne();
   }
 
-  async createVehicule(vehicule: Vehicule) {
-    this.vehiculesRepository.save(vehicule);
+  async createAstre(astre: Astre) {
+    this.astreRepository.save(astre);
   }
 
-  async createVehiculeOrganisationsRelation(
-    vehiculeId: number,
+  async createAstreOrganisationsRelation(
+    astreId: number,
     organisationsIds: number[],
-  ): Promise<Vehicule> {
-    let vehicule: Vehicule;
+  ): Promise<Astre> {
+    let astre: Astre;
     let organisation: Organisation;
     let organisations: Organisation[] = [];
-    // on récupère le véhicule en fonction de l'ID en paramètre
-    vehicule = await this.getVehicule(vehiculeId);
+    // on récupère l'astre en fonction de l'ID en paramètre
+    astre = await this.getAstre(astreId);
     //on récupère les organisations en fonction des ID en paramètres et on les ajoute dans la liste
     for (let i = 0; i < organisationsIds.length; i++) {
       organisation = await this.organisationService.getOrganisation(
@@ -46,16 +46,16 @@ export class AstresService {
       );
       organisations.push(organisation);
     }
-    // on modifie les organisations du véhicule récupéré avec le tableau d'organisations
-    vehicule.organisations = organisations;
-    return await this.vehiculesRepository.save(vehicule);
+    // on modifie les organisations de l'astre récupéré avec le tableau d'organisations
+    astre.organisations = organisations;
+    return await this.astreRepository.save(astre);
   }
 
-  async updateVehicule(vehicule: Vehicule) {
-    this.vehiculesRepository.save(vehicule);
+  async updateAstre(astre: Astre) {
+    this.astreRepository.save(astre);
   }
 
-  async deleteVehicule(vehicule: Vehicule) {
-    this.vehiculesRepository.delete(vehicule);
+  async deleteAstre(astre: Astre) {
+    this.astreRepository.delete(astre);
   }
 }
