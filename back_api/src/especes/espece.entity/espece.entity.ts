@@ -1,4 +1,5 @@
-import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
+import { Astre } from "src/astres/astre.entity/astre.entity";
+import { Entity, Column, PrimaryGeneratedColumn, ManyToMany } from "typeorm";
 
 @Entity()
 export class Espece {
@@ -32,4 +33,7 @@ export class Espece {
 
   @Column('text')
   image: string;
+
+  @ManyToMany(() => Astre, (astre) => astre.especes)
+  astres: Astre[];
 }

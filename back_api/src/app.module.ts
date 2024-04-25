@@ -5,6 +5,7 @@ import { VehiculesModule } from './vehicules/vehicules.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { OrganisationsModule } from './organisations/organisations.module';
 import { EspecesModule } from './especes/especes.module';
+import { AstresModule } from './astres/astres.module';
 
 @Module({
   imports: [
@@ -21,6 +22,7 @@ import { EspecesModule } from './especes/especes.module';
     VehiculesModule,
     OrganisationsModule,
     EspecesModule,
+    AstresModule,
   ],
   controllers: [AppController],
   providers: [AppService],
