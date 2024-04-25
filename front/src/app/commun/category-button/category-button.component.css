@@ -4,13 +4,13 @@ div {
     align-items: center;
 
   img {
-    height: 80px;
+    height: 100px;
   }
 
   p {
     font-family: "DistantGalaxy";
     color: black;
-    font-size: x-large;
+    font-size: xx-large;
     -webkit-text-stroke: thin #ead51eff;
     text-align: center;
   }

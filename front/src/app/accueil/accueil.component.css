@@ -1,15 +1,18 @@
 .container_categories {
-    margin-top: 4%
+    margin-top: 4%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container1 {
     display: flex;
-    margin: 0% 30%;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 30%;
 }
 
 .container2 {
     display: flex;
-    margin: 0% 30%;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 30%;
 }
