@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: black;
+}
+
+/* .background {
+  position: absolute;
+  width: 200vw;
+  height: 200vw;
+  top: -50%;
+  left: -50%;
+  z-index: 1;
+  will-change: transform;
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  animation: spin 2000s linear infinite;
+  background-size: 20%;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.stars {
+  background-image: url("http://lukedowding.com/img/space.jpg");
+} */

@@ -1,0 +1,15 @@
+div {
+    text-align: center;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.logo {
+    height: 60px;
+}
+
+.connexion {
+    height: 40px;
+}
