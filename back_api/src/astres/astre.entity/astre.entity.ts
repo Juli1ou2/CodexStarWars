@@ -37,4 +37,6 @@ export class Astre {
   @ManyToMany(() => Organisation, (organisation) => organisation.astres, {cascade: true})
   @JoinTable()
   organisations: Organisation[];
+
+
 }
