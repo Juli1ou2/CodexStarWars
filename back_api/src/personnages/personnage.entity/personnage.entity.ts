@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Espece } from 'src/especes/espece.entity/espece.entity';
+import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export class Personnage {
@@ -31,4 +32,7 @@ export class Personnage {
 
   @Column({ length: 75 })
   genre: string;
+
+  @ManyToOne(() => Espece, (espece) => espece.personnages)
+  espece: Espece;
 }

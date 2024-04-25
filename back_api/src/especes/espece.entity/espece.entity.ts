@@ -1,9 +1,15 @@
-import { Astre } from "src/astres/astre.entity/astre.entity";
-import { Entity, Column, PrimaryGeneratedColumn, ManyToMany } from "typeorm";
+import { Astre } from 'src/astres/astre.entity/astre.entity';
+import { Personnage } from 'src/personnages/personnage.entity/personnage.entity';
+import {
+  Column,
+  Entity,
+  ManyToMany,
+  OneToMany,
+  PrimaryGeneratedColumn,
+} from 'typeorm';
 
 @Entity()
 export class Espece {
-
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -36,4 +42,7 @@ export class Espece {
 
   @ManyToMany(() => Astre, (astre) => astre.especes)
   astres: Astre[];
+
+  @OneToMany(() => Personnage, (personnage) => personnage.espece)
+  personnages: Personnage[];
 }
