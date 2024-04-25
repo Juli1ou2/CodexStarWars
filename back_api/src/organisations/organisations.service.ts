@@ -15,9 +15,9 @@ export class OrganisationsService {
   }
 
   async getOrganisation(_id: number): Promise<Organisation> {
-    return await this.organisationsRepository.find({
+    return await this.organisationsRepository.findOne({
       where: [{ id: _id }],
-    })[0];
+    });
   }
 
   async createOrganisation(organisation: Organisation) {

@@ -6,7 +6,7 @@ export class Organisation {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column({length: 100})
+  @Column({ length: 100 })
   nom: string;
 
   @Column('text')
@@ -16,5 +16,5 @@ export class Organisation {
   image: string;
 
   @ManyToMany(() => Vehicule, (vehicule) => vehicule.organisations)
-    vehicules: Vehicule[]
+  vehicules: Vehicule[];
 }

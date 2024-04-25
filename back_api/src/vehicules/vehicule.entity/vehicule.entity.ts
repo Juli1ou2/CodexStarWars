@@ -33,7 +33,7 @@ export class Vehicule{
     @Column({ length: 100 })
     type:string;
 
-    @ManyToMany(() => Organisation)
+    @ManyToMany(() => Organisation, (organisation) => organisation.vehicules, { cascade: true })
     @JoinTable()
     organisations: Organisation[]
 }
