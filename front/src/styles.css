@@ -3,6 +3,16 @@ body {
   background-color: rgb(1, 0, 24);
 }
 
+::-moz-selection {
+    color: black;
+    background: rgb(75, 213, 238);
+  }
+  
+  ::selection {
+    color: black;
+    background: rgb(75, 213, 238);
+  }
+
 /* .background {
   position: absolute;
   width: 200vw;

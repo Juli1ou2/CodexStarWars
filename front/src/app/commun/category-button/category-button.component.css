@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  img {
+    height: 80px;
+  }
+
+  p {
+    font-family: "DistantGalaxy";
+    color: black;
+    font-size: x-large;
+    -webkit-text-stroke: thin #ead51eff;
+    text-align: center;
+  }
+}
