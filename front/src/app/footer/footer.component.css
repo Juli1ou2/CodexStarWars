@@ -1,0 +1,15 @@
+div {
+    margin-top: 3%;
+}
+
+p {
+    font-family: 'DistantGalaxy';
+    color: black;
+    font-size: large;
+    -webkit-text-stroke: thin #ead51eff;
+    text-align: center;
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+}

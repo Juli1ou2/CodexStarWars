@@ -1,5 +1,11 @@
 @font-face {
-	font-family: 'DistantGalaxy';
-	src: url('../assets/fonts/distant-galaxy.ttf') format(truetype),
-		url('../assets/fonts/distant-galaxy.woff') format(woff)
+  font-family: "DistantGalaxy";
+  src: url("../assets/fonts/distant-galaxy.ttf") format(truetype),
+    url("../assets/fonts/distant-galaxy.woff") format(woff);
+}
+
+div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
