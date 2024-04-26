@@ -16,6 +16,10 @@ div {
     border-bottom: solid 3px rgb(75, 213, 238);
 }
 
+.connexion:active {
+    border-bottom: solid 3px rgb(248, 7, 7);
+}
+
 p {
     font-family: 'DistantGalaxy';
     color: aliceblue;
