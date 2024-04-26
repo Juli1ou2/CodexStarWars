@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  width: 50%;
+  margin: 0% auto 2% auto;
+}
+
+.vehicule {
+  display: flex;
+  width: 40%;
+  border-radius: 20px;
+  border: solid 3px #ead51eff;
+  margin: 1% auto;
+  padding: 1%;
+}
+
+.side-infos {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: white;
+}
+
+p {
+  margin-bottom: 0%;
+}
+
+p:first-child {
+  font-family: "DistantGalaxy";
+  font-size: x-large;
+}
