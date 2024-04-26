@@ -2,6 +2,8 @@ div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 1em;
+  border-bottom: solid 3px rgba(255, 255, 255, 0);
 }
 
 img {
@@ -14,6 +16,7 @@ p {
   font-size: xx-large;
   -webkit-text-stroke: thin #ead51eff;
   text-align: center;
+  margin: 0;
 }
 
 a {
@@ -21,7 +24,9 @@ a {
 }
 
 div:hover {
-  background-color: aqua;
-  text-decoration: dashed;
-  /* border: rgb(75, 213, 238); */
+  border-bottom: solid 3px rgb(75, 213, 238);
+}
+
+div:active {
+  border-bottom: solid 3px rgb(248, 7, 7);
 }

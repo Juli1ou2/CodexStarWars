@@ -1,17 +1,19 @@
 div {
     text-align: center;
-    margin-top: 3vh;
+    margin-top: 2vh;
     display: flex;
     justify-content: space-around;
     align-items: center;    
 }
 
-.logo {
-    height: 60px;
+.connexion {
+    border-bottom: solid 3px rgba(75, 213, 238, 0);
+    margin: 0%;
+    padding: 1%;
 }
 
-.connexion {
-    height: 40px;
+.connexion:hover {
+    border-bottom: solid 3px rgb(75, 213, 238);
 }
 
 p {
