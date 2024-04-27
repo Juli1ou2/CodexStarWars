@@ -8,11 +8,14 @@
     />
     <button class="btn btn-outline-warning" type="submit">Search</button>
   </form>
-  <div class="vehicule" *ngFor="let vehicule of vehicules">
-    <img src="assets/boutons/star-wars-vaisseaux-logo.png" height="90px" />
-    <div class="side-infos">
-      <p>{{ vehicule.nom }}</p>
-      <p>{{ vehicule.longueur }}</p>
+
+  <div class="liste-vehicules">
+    <div class="vehicule" *ngFor="let vehicule of vehicules">
+      <img src="assets/boutons/star-wars-vaisseaux-logo.png" height="90px" />
+      <div class="side-infos">
+        <p>{{ vehicule.nom }}</p>
+        <p>{{ vehicule.longueur }}</p>
+      </div>
     </div>
   </div>
 </app-border-container>
