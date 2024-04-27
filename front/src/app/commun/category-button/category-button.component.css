@@ -1,0 +1,32 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  border-bottom: solid 3px rgba(255, 255, 255, 0);
+}
+
+img {
+  height: 100px;
+}
+
+p {
+  font-family: "DistantGalaxy";
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke: thin #ead51eff;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+div:hover {
+  border-bottom: solid 3px rgb(75, 213, 238);
+}
+
+div:active {
+  border-bottom: solid 3px rgb(248, 7, 7);
+}

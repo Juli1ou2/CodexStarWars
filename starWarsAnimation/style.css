@@ -1,29 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
-body {
-  background-color: rgb(1, 0, 24);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+html {
+  background-color: black;
+  color: #ead51eff;
   overflow: hidden;
-}
-
-::-moz-selection {
-  color: black;
-  background: rgb(75, 213, 238);
-}
-
-::selection {
-  color: black;
-  background: rgb(75, 213, 238);
-}
-
-@keyframes animStar {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-2000px);
-  }
 }
 
 #stars {
@@ -579,26 +557,81 @@ body {
     1918px 1729px #fff, 390px 1299px #fff;
 }
 
-/* .background {
+#title {
+  width: auto;
+  height: auto;
+  position: relative;
+  left: 0;
+  right: 0;
+  line-height: 1.3;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 2.25vw;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+}
+.container {
+  color: #ead51eff;
+  margin: 0 auto;
+  perspective: 380px;
+  perspective-origin: bottom;
   position: absolute;
-  width: 200vw;
-  height: 200vw;
-  top: -50%;
-  left: -50%;
-  z-index: 1;
-  will-change: transform;
-  @keyframes spin {
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  animation: spin 2000s linear infinite;
-  background-size: 20%;
-  background-position: center center;
-  background-repeat: repeat;
-  background-attachment: scroll;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: visible;
+  transform: scaleY(0.9);
+}
+.credits {
+  color: #ead51eff;
+  position: absolute;
+  top: 0;
+  left: 13%;
+  right: 13%;
+  animation: play 30s linear infinite;
+}
+.headings {
+  color: #ead51eff;
+  margin-bottom: 5rem;
 }
 
-.stars {
-  background-image: url("http://lukedowding.com/img/space.jpg");
-} */
+h1 {
+  color: #ead51eff;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #ead51eff;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+p {
+  color: #ead51eff;
+  padding: 0.5rem 0;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+@keyframes play {
+  0% {
+    transform: rotateX(21deg) translate3d(0, 100rem, 0);
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(21deg) translate3d(0, -150rem, 0);
+    opacity: 0;
+  }
+}
