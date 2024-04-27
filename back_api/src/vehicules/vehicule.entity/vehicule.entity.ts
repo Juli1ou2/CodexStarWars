@@ -27,6 +27,9 @@ export class Vehicule{
     @Column({ length: 150 })
     armes:string;
 
+    @Column()
+    nbEquipage:number;
+
     @Column('text')
     image:string;
 

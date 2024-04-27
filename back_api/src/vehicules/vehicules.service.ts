@@ -14,14 +14,24 @@ export class VehiculesService {
   ) {}
 
   async getVehicules(): Promise<Vehicule[]> {
-    return await this.vehiculesRepository.find();
+    return await this.vehiculesRepository
+      .createQueryBuilder('vehicule')
+      .orderBy('vehicule.nom', 'ASC')
+      .getMany();
+  }
+
+  async getVehiculesByName(_nom: string): Promise<Vehicule[]> {
+    return await this.vehiculesRepository
+      .createQueryBuilder('vehicule')
+      .where('vehicule.nom like :nom', { nom: `%${_nom}%` })
+      .orderBy('vehicule.nom', 'ASC')
+      .getMany();
   }
 
   async getVehicule(_id: number): Promise<Vehicule> {
     return await this.vehiculesRepository
       .createQueryBuilder('vehicule')
       .where('vehicule.id = :id', { id: _id })
-      .orderBy('vehicule.nom', 'ASC')
       .leftJoinAndSelect('vehicule.organisations', 'organisation')
       .getOne();
   }

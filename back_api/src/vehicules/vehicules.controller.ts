@@ -17,8 +17,13 @@ export class VehiculesController {
   constructor(private service: VehiculesService) {}
 
   @Get()
-  getAll(@Param() params) {
+  getAll() {
     return this.service.getVehicules();
+  }
+
+  @Get('nom')
+  getAllByName(@Body() body: { nom: string }) {
+    return this.service.getVehiculesByName(body.nom);
   }
 
   @Get(':id')
