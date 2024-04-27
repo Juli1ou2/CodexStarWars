@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow: auto;
 }
 
 ::-moz-selection {
@@ -27,8 +27,13 @@ body {
 }
 
 #stars {
-  width: 1px;
-  height: 1px;
+  overflow: hidden;
+  z-index: -1;
+  width: 2px;
+  height: 2px;
+  top: 0;
+  left: 0;
+  position: fixed;
   background: transparent;
   box-shadow: 268px 9px #fff, 1884px 1640px #fff, 115px 1540px #fff,
     803px 832px #fff, 1951px 1707px #fff, 554px 1273px #fff, 105px 1283px #fff,
@@ -396,8 +401,13 @@ body {
 }
 
 #stars2 {
+  overflow: hidden;
+  z-index: -1;
   width: 2px;
   height: 2px;
+  top: 0;
+  left: 0;
+  position: fixed;
   background: transparent;
   box-shadow: 746px 1726px #fff, 1244px 234px #fff, 668px 1348px #fff,
     17px 1680px #fff, 938px 1799px #fff, 15px 257px #fff, 350px 126px #fff,
@@ -513,8 +523,13 @@ body {
 }
 
 #stars3 {
+  overflow: hidden;
+  z-index: -1;
   width: 3px;
   height: 3px;
+  top: 0;
+  left: 0;
+  position: fixed;
   background: transparent;
   box-shadow: 1666px 1961px #fff, 897px 635px #fff, 1314px 1208px #fff,
     1766px 1045px #fff, 649px 1029px #fff, 1612px 1529px #fff,
