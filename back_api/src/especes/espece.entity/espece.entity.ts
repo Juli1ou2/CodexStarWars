@@ -40,6 +40,7 @@ export class Espece {
   @Column('text')
   image: string;
 
+  //Espece récupère la clé de Personnage.
   @ManyToMany(() => Astre, (astre) => astre.especes)
   astres: Astre[];
 

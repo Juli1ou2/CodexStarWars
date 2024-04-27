@@ -1,7 +1,7 @@
-import { AstreEntity } from './astre.entity';
+import { Astre } from "./astre.entity";
 
 describe('AstreEntity', () => {
   it('should be defined', () => {
-    expect(new AstreEntity()).toBeDefined();
+    expect(new Astre()).toBeDefined();
   });
 });

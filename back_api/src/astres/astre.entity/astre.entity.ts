@@ -35,6 +35,7 @@ export class Astre {
   @Column('text')
   image : string;
 
+  //Astre doit avoir les méthodes pour Organisation et Espece (table de relation)
   @ManyToMany(() => Organisation, (organisation) => organisation.astres, {cascade: true})
   @JoinTable()
   organisations: Organisation[];

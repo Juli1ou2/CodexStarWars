@@ -46,7 +46,7 @@ import {
           );
         return {
           message:
-            'SUCCESS : Relations entre le véhicule et les organisations effectuées !',
+            'SUCCESS : Relations entre l\'Astre et les organisations effectuées !',
           data: updateAstre,
         };
       } catch (error) {
@@ -54,7 +54,7 @@ import {
           throw new HttpException('Astre not found', HttpStatus.NOT_FOUND);
         }
         throw new HttpException(
-          'ERREUR lors de la relation entre l\'astre et les organisations !',
+          'ERREUR lors de la relation entre l\'Astre et les organisations !',
           HttpStatus.INTERNAL_SERVER_ERROR,
         );
       }

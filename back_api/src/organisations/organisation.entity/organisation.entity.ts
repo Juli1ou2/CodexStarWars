@@ -16,6 +16,7 @@ export class Organisation {
   @Column('text')
   image: string;
 
+  
   @ManyToMany(() => Vehicule, (vehicule) => vehicule.organisations)
   vehicules: Vehicule[];
   
