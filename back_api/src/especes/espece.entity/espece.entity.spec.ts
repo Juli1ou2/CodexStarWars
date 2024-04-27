@@ -1,7 +1,7 @@
-import { EspeceEntity } from './espece.entity';
+import { Espece } from "./espece.entity";
 
 describe('EspeceEntity', () => {
   it('should be defined', () => {
-    expect(new EspeceEntity()).toBeDefined();
+    expect(new Espece()).toBeDefined();
   });
 });
