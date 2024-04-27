@@ -19,7 +19,10 @@ export class VehiculesService {
   }
 
   searchVehicules(nom: string): Observable<Vehicule[]> {
-    const body = { nom: nom };
     return this.http.get<Vehicule[]>(CONSTANTES.API_URL + 'vehicules/nom/' + nom);
+  }
+
+  getVehicule(id: string): Observable<Vehicule> {
+    return this.http.get<Vehicule>(CONSTANTES.API_URL + 'vehicules/' + id);
   }
 }

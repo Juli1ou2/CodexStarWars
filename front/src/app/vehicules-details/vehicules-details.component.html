@@ -1,0 +1,41 @@
+<app-border-container [titre]="'Details'">
+  <div class="container1">
+    <div class="infos-principales">
+      <img
+        [src]="
+          'https://p.turbosquid.com/ts-thumb/YB/S3KZgL/ywQA1g0d/starwarsmillenniumfalcon3dmodel_04/jpg/1477651052/600x600/fit_q87/5adb3452f417f495641d6a740fbe260806f4b13a/starwarsmillenniumfalcon3dmodel_04.jpg'
+        "
+        height="300px"
+        alt="Illustration"
+      />
+      <h2>{{ vehiculeDetails.nom }}</h2>
+      <div class="infos">
+        <p>Longueur : {{ vehiculeDetails.longueur }}</p>
+        <p>Vitesse : {{ vehiculeDetails.vitesse }}</p>
+        <p>Classe : {{ vehiculeDetails.classe }}</p>
+        <p>Moteur : {{ vehiculeDetails.moteur }}</p>
+        <p>Armes : {{ vehiculeDetails.armes }}</p>
+        <p>
+          Nombre maximal de membre d'équipage : {{ vehiculeDetails.nbEquipage }}
+        </p>
+        <p>Type : {{ vehiculeDetails.type }}</p>
+      </div>
+    </div>
+    <div class="description">
+      <h3>Description</h3>
+      <p>{{ vehiculeDetails.description }}</p>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="organisations">
+      <h3>Organisations</h3>
+      <div
+        class="organisation"
+        *ngFor="let organisation of vehiculeDetails.organisations"
+      >
+        <p>{{ organisation.nom }}</p>
+        <p>{{ organisation.description }}</p>
+      </div>
+    </div>
+  </div>
+</app-border-container>

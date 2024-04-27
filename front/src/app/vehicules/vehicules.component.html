@@ -1,5 +1,10 @@
 <app-border-container [titre]="'Vehicules'">
-  <form class="mt-2" role="search" #searchBar='ngForm' (ngSubmit)="submit(searchBar.value.search)">
+  <form
+    class="mt-2"
+    role="search"
+    #searchBar="ngForm"
+    (ngSubmit)="submit(searchBar.value.search)"
+  >
     <input
       class="form-control me-2"
       type="search"
@@ -12,12 +17,16 @@
   </form>
 
   <div class="liste-vehicules">
-    <div class="vehicule" *ngFor="let vehicule of vehicules">
-      <img src="{{ vehicule.image }}" height="90px" alt="Illustration"/>
+    <a
+      class="vehicule"
+      *ngFor="let vehicule of vehicules"
+      routerLink="details/{{ vehicule.id }}"
+    >
+      <img src="{{ vehicule.image }}" height="90px" alt="Illustration" />
       <div class="side-infos">
         <p>{{ vehicule.nom }}</p>
         <p>{{ vehicule.longueur }}</p>
       </div>
-    </div>
+    </a>
   </div>
 </app-border-container>
