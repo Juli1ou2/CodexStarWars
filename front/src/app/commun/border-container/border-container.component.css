@@ -1,0 +1,17 @@
+div {
+  min-height: 70vh;
+  border-radius: 10px;
+  border: solid 3px rgb(75, 213, 238);
+  padding: 1%;
+  margin: 2% 2% 3% 2%;
+  background-color: rgba(0, 0, 0, 0.568);
+}
+
+h1 {
+  font-family: "DistantGalaxy";
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke: thin #ead51eff;
+  text-align: center;
+  margin: 0;
+}
