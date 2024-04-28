@@ -1,0 +1,38 @@
+<app-border-container [titre]="'Details'">
+  <div class="container1">
+    <div class="infos-principales">
+      <img
+        src="{{ especeDetails.image }}"
+        height="300px"
+        alt="Illustration"
+      />
+      <h2>{{ especeDetails.nom }}</h2>
+      <div class="infos">
+        <p>
+          Classification :
+          <span class="important">{{ especeDetails.classification }}</span>
+        </p>
+        <p>
+          Taille : <span class="important">{{ especeDetails.taille }}</span>
+        </p>
+        <p>
+          Couleur du corps : <span class="important">{{ especeDetails.couleurCorps }}</span>
+        </p>
+        <p>
+          Couleur des poils : <span class="important">{{ especeDetails.couleurPoils }}</span>
+        </p>
+        <p>
+          Habitat : <span class="important">{{ especeDetails.habitat }}</span>
+        </p>
+        <p>
+          Langue :
+          <span class="important">{{ especeDetails.langage }}</span>
+        </p>
+      </div>
+    </div>
+    <div class="description">
+      <h3>Description</h3>
+      <p>{{ especeDetails.description }}</p>
+    </div>
+  </div> 
+</app-border-container>

@@ -13,6 +13,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { VehiculesDetailsComponent } from './vehicules-details/vehicules-details.component';
 import { ListeOrganisationsComponent } from './commun/liste-organisations/liste-organisations.component';
+import { EspecesComponent } from './especes/especes.component';
+import { EspecesDetailsComponent } from './especes-details/especes-details.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ListeOrganisationsComponent } from './commun/liste-organisations/liste-
     VehiculesComponent,
     BorderContainerComponent,
     VehiculesDetailsComponent,
-    ListeOrganisationsComponent
+    ListeOrganisationsComponent,
+    EspecesComponent,
+    EspecesDetailsComponent
   ],
   imports: [
     BrowserModule,
