@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  width: 50%;
+  margin: 0% auto 2% auto;
+}
+
+.liste-personnages {
+  height: 60vh;
+  overflow: auto;
+}
+
+.personnage {
+  display: flex;
+  width: 40%;
+  border-radius: 20px;
+  border: solid 3px #ead51eff;
+  margin: 1% auto;
+  padding: 1%;
+  text-decoration: none;
+}
+
+.personnage:hover {
+  border: solid 3px rgb(75, 213, 238);
+}
+
+.personnage:active {
+  border: solid 3px rgb(248, 7, 7);
+}
+
+.side-infos {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: white;
+}
+
+img {
+  border-radius: 8px;
+  border: solid 2px rgba(255, 255, 255, 0);
+  background-color: #d8d8c3ff;
+}
+
+p {
+  margin-bottom: 0%;
+}
+
+p:first-child {
+  font-family: "DistantGalaxy";
+  font-size: x-large;
+}
