@@ -19,6 +19,14 @@ form {
   text-decoration: none;
 }
 
+.vehicule:hover {
+  border: solid 3px rgb(75, 213, 238);
+}
+
+.vehicule:active {
+  border: solid 3px rgb(248, 7, 7);
+}
+
 .side-infos {
   margin-left: 10%;
   display: flex;
@@ -26,6 +34,12 @@ form {
   justify-content: center;
 
   color: white;
+}
+
+img {
+  border-radius: 8px;
+  border: solid 2px rgba(255, 255, 255, 0);
+  background-color: #d8d8c3ff;
 }
 
 p {
