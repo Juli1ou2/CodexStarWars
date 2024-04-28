@@ -12,6 +12,7 @@ import { BorderContainerComponent } from './commun/border-container/border-conta
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { VehiculesDetailsComponent } from './vehicules-details/vehicules-details.component';
+import { ListeOrganisationsComponent } from './commun/liste-organisations/liste-organisations.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { VehiculesDetailsComponent } from './vehicules-details/vehicules-details
     CategoryButtonComponent,
     VehiculesComponent,
     BorderContainerComponent,
-    VehiculesDetailsComponent
+    VehiculesDetailsComponent,
+    ListeOrganisationsComponent
   ],
   imports: [
     BrowserModule,

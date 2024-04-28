@@ -1,0 +1,16 @@
+<div class="organisations">
+    <h3>Organisations</h3>
+    <div class="liste-organisations">
+      <div
+        class="organisation"
+        *ngFor="let organisation of organisations"
+      >
+        <img
+          src="{{ organisation.image }}"
+          height="90px"
+          alt="Illustration"
+        />
+        <p>{{ organisation.nom }}</p>
+      </div>
+    </div>
+  </div>
