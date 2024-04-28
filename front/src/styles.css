@@ -27,7 +27,7 @@ body {
 }
 
 #stars {
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: -1;
   width: 2px;
   height: 2px;
@@ -401,7 +401,7 @@ body {
 }
 
 #stars2 {
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: -1;
   width: 2px;
   height: 2px;
@@ -523,7 +523,7 @@ body {
 }
 
 #stars3 {
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: -1;
   width: 3px;
   height: 3px;

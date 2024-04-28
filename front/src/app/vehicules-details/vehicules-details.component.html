@@ -40,6 +40,28 @@
   </div>
 
   <div class="container2">
-    <app-liste-organisations [organisations]="vehiculeDetails.organisations"></app-liste-organisations>
+    <app-liste-organisations
+      [organisations]="vehiculeDetails.organisations"
+    ></app-liste-organisations>
+    <div class="actions">
+      <a title="Ajouter"
+        ><img
+          src="assets/boutons/add.png"
+          height="45px"
+          alt="Bouton ajouter"
+      /></a>
+      <a title="Modifier"
+        ><img
+          src="assets/boutons/edit.png"
+          height="45px"
+          alt="Bouton modifier"
+      /></a>
+      <a title="Supprimer" (click)="deleteVehicule()"
+        ><img
+          src="assets/boutons/delete.png"
+          height="45px"
+          alt="Bouton supprimer"
+      /></a>
+    </div>
   </div>
 </app-border-container>

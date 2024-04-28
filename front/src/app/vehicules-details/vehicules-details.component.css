@@ -8,11 +8,13 @@
 }
 
 .container2 {
+  display: flex;
   margin: 1%;
   flex: 1;
 }
 
 .infos-principales {
+  overflow: auto;
   flex: 2;
   border-radius: 20px;
   border: solid 3px #ead51eff;
@@ -39,6 +41,30 @@
   border: solid 2px rgba(255, 255, 255, 0);
   background-color: #d8d8c3ff;
   margin: auto;
+}
+
+.actions {
+  border-radius: 20px;
+  border: solid 3px #ead51eff;
+  padding: 1%;
+  margin-left: 1%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions a:hover {
+  opacity: 80%;
+}
+.actions a:active {
+  opacity: 60%;
+}
+
+app-liste-organisations {
+  flex: auto;
+  margin-right: 1%;
 }
 
 p {
