@@ -26,11 +26,11 @@ export class Astre {
   @Column({length: 75})
   type : string;
 
-  @Column({type: 'decimal', precision: 10, scale: 2, default: 0.0})
-  diametre : number;
+  @Column({length: 15})
+  diametre : string;
 
-  @Column()
-  population : number;
+  @Column({length: 75})
+  population : string;
 
   @Column('text')
   image : string;

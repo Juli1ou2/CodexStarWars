@@ -22,7 +22,7 @@ export class Espece {
   @Column({ length: 75 })
   classification: string;
 
-  @Column({ length: 10 })
+  @Column({ length: 15 })
   taille: string;
 
   @Column({ length: 150 })
