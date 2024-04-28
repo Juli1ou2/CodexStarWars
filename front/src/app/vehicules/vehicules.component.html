@@ -1,18 +1,32 @@
 <app-border-container [titre]="'Vehicules'">
-  <form class="mt-2" role="search">
+  <form
+    class="mt-2"
+    role="search"
+    #searchBar="ngForm"
+    (ngSubmit)="submit(searchBar.value.search)"
+  >
     <input
       class="form-control me-2"
       type="search"
       placeholder="Faucon Millenium..."
       aria-label="Search"
+      name="search"
+      ngModel
     />
     <button class="btn btn-outline-warning" type="submit">Search</button>
   </form>
-  <div class="vehicule" *ngFor="let vehicule of vehicules">
-    <img src="assets/boutons/star-wars-vaisseaux-logo.png" height="90px" />
-    <div class="side-infos">
-      <p>{{ vehicule.nom }}</p>
-      <p>{{ vehicule.longueur }}</p>
-    </div>
+
+  <div class="liste-vehicules">
+    <a
+      class="vehicule"
+      *ngFor="let vehicule of vehicules"
+      routerLink="details/{{ vehicule.id }}"
+    >
+      <img src="{{ vehicule.image }}" height="90px" alt="Illustration" />
+      <div class="side-infos">
+        <p>{{ vehicule.nom }}</p>
+        <p>{{ vehicule.longueur }}</p>
+      </div>
+    </a>
   </div>
 </app-border-container>

@@ -4,7 +4,9 @@ div {
   border: solid 3px rgb(75, 213, 238);
   padding: 1%;
   margin: 2% 2% 3% 2%;
-  background-color: rgba(0, 0, 0, 0.568);
+  background-color: rgba(4, 64, 75, 0.301);
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
