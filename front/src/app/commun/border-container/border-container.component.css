@@ -1,4 +1,4 @@
-div {
+.border-container {
   min-height: 70vh;
   max-height: 80vh;
   border-radius: 10px;
@@ -8,6 +8,19 @@ div {
   background-color: rgba(4, 64, 75, 0.301);
   display: flex;
   flex-direction: column;
+}
+
+.haut {
+  display: flex;
+  justify-content: space-between;
+}
+
+a:hover {
+  opacity: 80%;
+}
+
+a:active {
+  opacity: 60%;
 }
 
 h1 {

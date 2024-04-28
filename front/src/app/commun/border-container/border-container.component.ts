@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -7,4 +8,10 @@ import { Component, Input } from '@angular/core';
 })
 export class BorderContainerComponent {
   @Input() titre: string | undefined;
+
+  constructor(private location: Location){}
+
+  retour() {
+    this.location.back();
+  }
 }

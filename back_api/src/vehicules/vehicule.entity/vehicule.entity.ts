@@ -21,7 +21,7 @@ export class Vehicule{
     @Column({ length: 50 })
     classe:string;
 
-    @Column({ length: 50 })
+    @Column({ length: 100 })
     moteur:string;
 
     @Column({ length: 150 })

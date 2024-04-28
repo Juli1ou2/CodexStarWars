@@ -1,4 +1,10 @@
-<div>
-  <h1>{{ titre }}</h1>
+<div class="border-container">
+  <div class="haut">
+    <a (click)="retour()" title="Retour"
+      ><img src="assets/boutons/fleche.png" height="20px" alt="Retour"
+    /></a>
+    <h1>{{ titre }}</h1>
+    <div></div>
+  </div>
   <ng-content></ng-content>
 </div>

@@ -12,16 +12,16 @@ export class VehiculesDetailsComponent {
   vehiculeId : any;
   vehiculeDetails: Vehicule = {
     id: 0,
-    nom: '',
-    description: '',
-    longueur: '',
-    vitesse: '',
-    classe: '',
-    moteur: '',
-    armes: '',
+    nom: '...',
+    description: '...',
+    longueur: '____',
+    vitesse: '____',
+    classe: '____',
+    moteur: '____',
+    armes: '____',
     nbEquipage: 0,
     image: '',
-    type: '',
+    type: '____',
     organisations: []
   };
 
@@ -32,5 +32,11 @@ export class VehiculesDetailsComponent {
     this.vehiculesService.getVehicule(this.vehiculeId).subscribe((vehicule) => {
       this.vehiculeDetails = vehicule;
     });
+  }
+
+  deleteVehicule(): void {
+    if (window.confirm('⚠ Êtes-vous sûr de vouloir supprimer cet élément ?')) {
+      this.vehiculesService.delete(this.vehiculeDetails.id);
+    }
   }
 }
