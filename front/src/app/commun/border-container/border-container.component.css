@@ -1,5 +1,6 @@
 div {
   min-height: 70vh;
+  max-height: 80vh;
   border-radius: 10px;
   border: solid 3px rgb(75, 213, 238);
   padding: 1%;

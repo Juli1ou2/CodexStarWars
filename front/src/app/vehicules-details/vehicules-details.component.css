@@ -1,5 +1,7 @@
 .container1 {
   display: flex;
+  max-height: 48vh;
+  overflow: auto;
   flex: 2;
   justify-content: space-between;
   margin: 1%;
@@ -12,9 +14,6 @@
 
 .infos-principales {
   flex: 2;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
   border-radius: 20px;
   border: solid 3px #ead51eff;
   padding: 1%;
@@ -30,28 +29,36 @@
   margin-left: 1%;
 }
 
-.organisations {
-  overflow: auto;
-  border-radius: 20px;
-  border: solid 3px #ead51eff;
-  padding: 1%;
+.description p {
+  font-style: italic;
+  font-weight: bold;
 }
 
-img {
+.infos-principales img {
   border-radius: 20px;
   border: solid 2px rgba(255, 255, 255, 0);
+  background-color: #d8d8c3ff;
   margin: auto;
 }
 
 p {
+  font-family: "AnonymousPro";
   margin-bottom: 0%;
-  color: white;
+  color: #d8d8c3ff;
+  text-transform: uppercase;
+  font-size: large;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.important {
+  font-weight: bold;
 }
 
 h3 {
   font-family: "DistantGalaxy";
   font-size: xx-large;
-  color: white;
+  color: #d8d8c3ff;
   margin-bottom: 1%;
 }
 

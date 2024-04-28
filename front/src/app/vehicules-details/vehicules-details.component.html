@@ -2,23 +2,35 @@
   <div class="container1">
     <div class="infos-principales">
       <img
-        [src]="
-          'https://p.turbosquid.com/ts-thumb/YB/S3KZgL/ywQA1g0d/starwarsmillenniumfalcon3dmodel_04/jpg/1477651052/600x600/fit_q87/5adb3452f417f495641d6a740fbe260806f4b13a/starwarsmillenniumfalcon3dmodel_04.jpg'
-        "
+        src="{{ vehiculeDetails.image }}"
         height="300px"
         alt="Illustration"
       />
       <h2>{{ vehiculeDetails.nom }}</h2>
       <div class="infos">
-        <p>Longueur : {{ vehiculeDetails.longueur }}</p>
-        <p>Vitesse : {{ vehiculeDetails.vitesse }}</p>
-        <p>Classe : {{ vehiculeDetails.classe }}</p>
-        <p>Moteur : {{ vehiculeDetails.moteur }}</p>
-        <p>Armes : {{ vehiculeDetails.armes }}</p>
         <p>
-          Nombre maximal de membre d'équipage : {{ vehiculeDetails.nbEquipage }}
+          Longueur :
+          <span class="important">{{ vehiculeDetails.longueur }}</span>
         </p>
-        <p>Type : {{ vehiculeDetails.type }}</p>
+        <p>
+          Vitesse : <span class="important">{{ vehiculeDetails.vitesse }}</span>
+        </p>
+        <p>
+          Classe : <span class="important">{{ vehiculeDetails.classe }}</span>
+        </p>
+        <p>
+          Moteur : <span class="important">{{ vehiculeDetails.moteur }}</span>
+        </p>
+        <p>
+          Armes : <span class="important">{{ vehiculeDetails.armes }}</span>
+        </p>
+        <p>
+          Nombre max de membres d'équipage :
+          <span class="important">{{ vehiculeDetails.nbEquipage }}</span>
+        </p>
+        <p>
+          Type : <span class="important">{{ vehiculeDetails.type }}</span>
+        </p>
       </div>
     </div>
     <div class="description">
@@ -26,16 +38,8 @@
       <p>{{ vehiculeDetails.description }}</p>
     </div>
   </div>
+
   <div class="container2">
-    <div class="organisations">
-      <h3>Organisations</h3>
-      <div
-        class="organisation"
-        *ngFor="let organisation of vehiculeDetails.organisations"
-      >
-        <p>{{ organisation.nom }}</p>
-        <p>{{ organisation.description }}</p>
-      </div>
-    </div>
+    <app-liste-organisations [organisations]="vehiculeDetails.organisations"></app-liste-organisations>
   </div>
 </app-border-container>
