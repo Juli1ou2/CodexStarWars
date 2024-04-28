@@ -33,4 +33,10 @@ export class VehiculesDetailsComponent {
       this.vehiculeDetails = vehicule;
     });
   }
+
+  deleteVehicule(): void {
+    if (window.confirm('⚠ Êtes-vous sûr de vouloir supprimer cet élément ?')) {
+      this.vehiculesService.delete(this.vehiculeDetails.id);
+    }
+  }
 }
