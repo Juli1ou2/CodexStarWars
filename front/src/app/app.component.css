@@ -4,6 +4,11 @@
     url("../assets/fonts/distant-galaxy.woff") format(woff);
 }
 
+@font-face {
+  font-family: "AnonymousPro";
+  src: url("../assets/fonts/Anonymous-Pro/Anonymous_Pro.ttf") format(truetype);
+}
+
 div {
   z-index: 4;
   flex: 1;
