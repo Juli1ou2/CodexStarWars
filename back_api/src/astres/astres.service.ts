@@ -26,6 +26,14 @@ export class AstresService {
       .getOne();
   }
 
+  async getAstresByName(_nom: string): Promise<Astre[]> {
+    return await this.astreRepository
+      .createQueryBuilder('astre')
+      .where('astre.nom like :nom', { nom: `%${_nom}%` })
+      .orderBy('astre.nom', 'ASC')
+      .getMany();
+  }
+
   async createAstre(astre: Astre) {
     this.astreRepository.save(astre);
   }

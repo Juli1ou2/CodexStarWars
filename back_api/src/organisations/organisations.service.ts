@@ -19,6 +19,13 @@ export class OrganisationsService {
       where: [{ id: _id }],
     });
   }
+  async getOrganisationsByName(_nom: string): Promise<Organisation[]> {
+    return await this.organisationsRepository
+      .createQueryBuilder('organisation')
+      .where('organisation.nom like :nom', { nom: `%${_nom}%` })
+      .orderBy('organisation.nom', 'ASC')
+      .getMany();
+  }
 
   async createOrganisation(organisation: Organisation) {
     this.organisationsRepository.save(organisation);

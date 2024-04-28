@@ -21,6 +21,11 @@ import {
       return this.service.getAstres();
     }
   
+    @Get('nom/:nom')
+    getAllByName(@Param() params) {
+      return this.service.getAstresByName(params.nom);
+    }
+
     @Get(':id')
     get(@Param() params) {
       return this.service.getAstre(params.id);
