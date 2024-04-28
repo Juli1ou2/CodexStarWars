@@ -33,20 +33,20 @@ VALUES
         'Nubian 221 Type J - Nubian Monarc C-4',
         'Multiples',
         2,
-        'https://static.wikia.nocookie.net/frstarwars/images/2/2d/Chasseur_N-1.png/revision/latest?cb=20150712132629',
+        'https://fbi.cults3d.com/uploaders/15181753/illustration-file/99245c2d-071d-408e-8b43-e5b2a3652056/DSC_0478.jpg',
         'vaisseau'
     ),
     (
         NULL,
         'Corvette CR90',
-        'Les corvettes CR90 étaient des vaisseaux fabriqués par la Corporation Technique Corellienne. Ils furent largement utilisés par la Maison Organa d''Alderaan ainsi que par la rébellion et son successeur, l''Alliance Rebelle.'r'nLe plus connu était le Tantive IV, le vaisseau diplomatique appartenant à Bail Prestor Organa et dont le capitaine était Raymus Antilles.',
+        'Les corvettes CR90 étaient des vaisseaux fabriqués par la Corporation Technique Corellienne. Ils furent largement utilisés par la Maison Organa d''Alderaan ainsi que par la rébellion et son successeur, l''Alliance Rebelle. Le plus connu était le Tantive IV, le vaisseau diplomatique appartenant à Bail Prestor Organa et dont le capitaine était Raymus Antilles.',
         '150 m ',
         '950 km/h',
         'Inconnue',
         'Inconnu',
         'Multiples',
         165,
-        'https://static.wikia.nocookie.net/frstarwars/images/2/24/TantiveIV-TSWB.png/revision/latest?cb=20221009085621',
+        'https://img.swcombine.com//ships/7/large.png',
         'vaisseau'
     ),
     (
@@ -59,7 +59,7 @@ VALUES
         'Propulseurs ioniques',
         'Multiples',
         7400,
-        'https://static.wikia.nocookie.net/frstarwars/images/2/2b/Destroyer_Stellaire_de_classe_Venator.png/revision/latest?cb=20231007104832',
+        'https://www.starwars-universe.com/images/encyclopedie/vaisseaux_vehicules/images_v6/destroyer_venator_imv6.jpg',
         'vaisseau'
     ),
     (
@@ -72,7 +72,7 @@ VALUES
         'Inconnu',
         'Multiples',
         50000,
-        'https://static.wikia.nocookie.net/frstarwars/images/e/e4/ImperialClassStarDestroyer-TSWB.png/revision/latest?cb=20230517132652',
+        'https://www.starwars-universe.com/images/encyclopedie/vaisseaux_vehicules/images_v6/destroyer_imperial1_imv6.jpg',
         'vaisseau'
     ),
     (
@@ -85,20 +85,20 @@ VALUES
         'Inconnu',
         'Multiples',
         300,
-        'https://static.wikia.nocookie.net/frstarwars/images/f/fe/Procurer.png/revision/latest?cb=20150703070513',
+        'https://i.imgur.com/tnBR1MT.jpg',
         'vaisseau'
     ),
     (
         NULL,
         'Saak''ak',
-        'Le Saak''ak était le croiseur personnel de Nute Gunray durant le blocus de Naboo en 32 av.BY, il était dirigé par Daultay Dofine au moment du blocus.'r'nC''est dans ce croiseur que furent invités et piégés le maître Jedi Qui-Gon Jinn et son Padawan Obi-Wan Kenobi, il arrivèrent dans le Radiant VII qui fut détruit par le canonnier Jull Dremon sous les ordres de Nute Gunray après que les Jedi l''ai quitté.',
+        'Le Saak''ak était le croiseur personnel de Nute Gunray durant le blocus de Naboo en 32 av.BY, il était dirigé par Daultay Dofine au moment du blocus. C''est dans ce croiseur que furent invités et piégés le maître Jedi Qui-Gon Jinn et son Padawan Obi-Wan Kenobi, il arrivèrent dans le Radiant VII qui fut détruit par le canonnier Jull Dremon sous les ordres de Nute Gunray après que les Jedi l''ai quitté.',
         '3356 m',
         '500 km/h',
         'Inconnue',
         'Inconnu',
         'Multiples',
         300,
-        'https://static.wikia.nocookie.net/frstarwars/images/b/b0/Saak%27ak.png/revision/latest?cb=20150324154913',
+        'https://i.pinimg.com/originals/5b/05/3b/5b053b208f384735a318702daff92001.jpg',
         'vaisseau'
     ),
     (
@@ -111,7 +111,7 @@ VALUES
         'Ions SFS-Z Rk5',
         'Multiples',
         6,
-        'https://static.wikia.nocookie.net/frstarwars/images/c/cb/Navette_de_classe_T-4a_Lambda.jpg/revision/latest?cb=20160514175059',
+        'https://img.planete-starwars.com/upload/databank/4/105_T4a.JPG',
         'vaisseau'
     ),
     (
@@ -124,7 +124,7 @@ VALUES
         'Inconnu',
         'Multiples',
         25,
-        'https://static.wikia.nocookie.net/frstarwars/images/c/ca/Navette_Interstellaire_2000.png/revision/latest?cb=20230804193545',
+        'https://www.starwars-holonet.com/holonet/images/e/e1/15921/ship_starcommuter2000.jpg',
         'vaisseau'
     ),
     (
@@ -137,7 +137,7 @@ VALUES
         'Inconnu',
         'Multiples',
         4,
-        'https://static.wikia.nocookie.net/frstarwars/images/f/ff/Sith_Infiltrateur.png/revision/latest?cb=20150324092516',
+        'https://lh3.googleusercontent.com/proxy/qeglNErFKDoA7_L0YQwfnXDCcuqvvOFXS5RXEtAPB2l88klvINUivJuLa7TJEqkYdZhaZFQh7oWSywWXaBvRkiR4HX_AAHqGSg7im7pq',
         'vaisseau'
     ),
     (
@@ -150,20 +150,20 @@ VALUES
         'Inconnu',
         'Multiples',
         3,
-        'https://static.wikia.nocookie.net/frstarwars/images/1/15/Radiant_VII.png/revision/latest?cb=20230311211825',
+        'https://p.turbosquid.com/ts-thumb/3c/EBlb21/by9VhZh7/picture7/jpg/1602765151/600x600/fit_q87/4c5360b7b1baa3291fda0b47f6f0f604a70735ac/picture7.jpg',
         'vaisseau'
     ),
     (
         NULL,
         'Main Invisible',
-        'La Main Invisible était le vaisseau transportant le Chancelier Suprême captif Sheev Palpatine durant la seconde bataille de Coruscant en 19 av.BY.'r'nC''est dans ce vaisseau Séparatiste que le Comte Dooku fut tué par Anakin Skywalker. Il est le vaisseau amiral du Comte Dooku et du Général Grievous. Son capitaine était Lushros Dofine, neveu de Daultay Dofine et son second était Aito Laff.',
+        'La Main Invisible était le vaisseau transportant le Chancelier Suprême captif Sheev Palpatine durant la seconde bataille de Coruscant en 19 av.BY. C''est dans ce vaisseau Séparatiste que le Comte Dooku fut tué par Anakin Skywalker. Il est le vaisseau amiral du Comte Dooku et du Général Grievous. Son capitaine était Lushros Dofine, neveu de Daultay Dofine et son second était Aito Laff.',
         '1088 m',
         '1050 km/h',
         'Inconnue',
         'Inconnu',
         'Multiples',
         600,
-        'https://static.wikia.nocookie.net/frstarwars/images/c/c9/La_Main_Invisible.png/revision/latest?cb=20150320101252',
+        'https://static.planetminecraft.com/files/resource_media/screenshot/1705/310828039_lrg.png',
         'vaisseau'
     ),
     (
@@ -176,7 +176,7 @@ VALUES
         'Ion Destrover-1 - Ion Gemon-4 - Réacteur à ionisation ',
         'Multiples',
         45000,
-        'https://static.wikia.nocookie.net/frstarwars/images/e/e4/ImperialClassStarDestroyer-TSWB.png/revision/latest?cb=20230517132652',
+        'https://www.starwars-universe.com/images/encyclopedie/vaisseaux_vehicules/images_v6/destroyer_imperial1_imv6.jpg',
         'vaisseau'
     ),
     (
@@ -189,7 +189,7 @@ VALUES
         'Ion Destroyer-1 - Ion Gemon-4',
         'Multiples',
         45000,
-        'https://static.wikia.nocookie.net/frstarwars/images/8/88/ISDIIESB.png/revision/latest?cb=20201021091403',
+        'https://www.starwars-universe.com/images/encyclopedie/vaisseaux_vehicules/images_v6/destroyer_imperial1_imv6.jpg',
         'vaisseau'
     ),
     (
@@ -202,7 +202,7 @@ VALUES
         'Ionique',
         'Multiples',
         1,
-        'https://static.wikia.nocookie.net/frstarwars/images/7/79/Chasseur_TIE.png/revision/latest?cb=20161022074236',
+        'https://img.planete-starwars.com/upload/databank/4/TIE-ln.JPG',
         'vaisseau'
     ),
     (
@@ -215,7 +215,7 @@ VALUES
         'Ionique',
         'Multiples',
         1,
-        'https://static.wikia.nocookie.net/frstarwars/images/9/9d/Bombardier_TIE.png/revision/latest?cb=20230729152928',
+        'https://www.starwars-universe.com/images/encyclopedie/vaisseaux_vehicules/images_v6/tie_bomber_imv6.jpg',
         'vaisseau'
     );
 
@@ -226,149 +226,86 @@ VALUES
     (
         NULL,
         'Un ordre de chevaliers et de maîtres Jedi dédiés à maintenir la paix et la justice dans la galaxie, tout en suivant les enseignements de la Force.',
-        'image',
+        'https://stickair.com/35358-large_default/ordre-jedi.jpg',
         'Ordre Jedi'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'L''antithèse des Jedi, les Sith suivent les côtés sombres de la Force, cherchant le pouvoir et la domination à travers la galaxie.',
-        '',
+        'https://upload.wikimedia.org/wikipedia/commons/3/39/Sith_Emblem_%28Star_Wars%29.svg',
         'Ordre Sith'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Une fédération démocratique de planètes qui a précédé l''Empire Galactique. Elle était dirigée par un Sénat et défendue par une armée de clones.',
         'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Emblem_of_the_Galactic_Republic.svg/1200px-Emblem_of_the_Galactic_Republic.svg.png',
         'République Galactique'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Formé après la chute de la République, l''Empire est un régime totalitaire dirigé par l''Empereur Palpatine (alias Dark Sidious) et son bras droit, Dark Vador (Anakin Skywalker).',
         'https://www.pathfinder-fr.org/Wiki/GetFile.aspx?Page=Parties.P104%20empire&File=empire.png',
         'Empire Galactique'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
-        'Une coalition de groupes et de planètes opposés à l''Empire Galactique,
-        dont le but est de restaurer la République et de renverser l''Empereur.',
-        '',
+        'Une coalition de groupes et de planètes opposés à l''Empire Galactique, dont le but est de restaurer la République et de renverser l''Empereur.',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rebel_Alliance_logo.svg/1200px-Rebel_Alliance_logo.svg.png',
         'Alliance Rebelle'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Une organisation militante née des cendres de l''Empire Galactique, cherchant à restaurer l''autorité de l''Empire et à éliminer la Résistance.',
-        '',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Emblem_of_the_First_Order.svg/1200px-Emblem_of_the_First_Order.svg.png',
         'Premier Ordre'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Une faction paramilitaire opposée au Premier Ordre, formée pour lutter contre son oppression et protéger la liberté dans la galaxie.',
-        '',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rebel_Alliance_logo.svg/1200px-Rebel_Alliance_logo.svg.png',
         'Résistance'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Une organisation commerciale puissante et influente dans la galaxie, souvent impliquée dans des activités illégales et des conflits politiques.',
-        '',
+        'https://static.wikia.nocookie.net/frstarwars/images/8/8f/F%C3%A9d%C3%A9ration_du_Commerce.svg/revision/latest?cb=20160518142908',
         'Fédération du Commerce'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Une espèce de criminels notoirement connue pour son contrôle du crime organisé et du commerce illégal à travers la galaxie.',
-        '',
+        'https://liquipedia.net/commons/images/f/f0/Hutt_Cartel_Light_Logo.png',
         'Hutts'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Une culture guerrière distincte avec une longue histoire de mercenaires et de chasseurs de primes. Ils suivent un code d''honneur appelé "la Voie Mandalorienne".',
-        '',
+        'https://seeklogo.com/images/S/star-wars-mandalorian-mythosaur-skull-logo-5157CCC46D-seeklogo.com.png',
         'Mandaloriens'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Formée après la chute de l''Empire Galactique, la Nouvelle République est une tentative de restaurer la démocratie dans la galaxie.',
-        '',
+        'https://upload.wikimedia.org/wikipedia/fr/c/cd/Nouvelle_R%C3%A9publique_canon.png',
         'Nouvelle République'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Une alliance de planètes et de corporations qui se sont rebellées contre la République, menant à la Guerre des Clones.',
-        '',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Confederacy_of_Independent_Systems.svg/1200px-Confederacy_of_Independent_Systems.svg.png',
         'Confédération des Systèmes Indépendants'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Un clan de sorcières puissantes sur la planète Dathomir, utilisant la magie et la Force pour manipuler et contrôler les événements.',
         '',
         'Ordre des Nightsisters'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
+    ),
     (
         NULL,
         'Un groupe de guerrières Dathomiriennes qui servent les Nightsisters, souvent formées en tant qu''assassins redoutables.',
         '',
         'Soeurs de la Nuit'
-    );
-
-INSERT INTO
-    `organisation` (`id`, `description`, `image`, `nom`)
-VALUES
-    (
-        NULL,
-        'Une coalition de groupes et de planètes opposés à l''Empire Galactique, dont le but est de restaurer la République et de renverser l''Empereur.',
-        '',
-        'Alliance Rebelle'
     );
 
 -- ESPECES
@@ -425,7 +362,7 @@ VALUES
     (
         NULL,
         'Weequay',
-        'Les Weequays étaient une espèce originaire de la planète Sriluur de l''Espace Hutt.'r'n',
+        'Les Weequays étaient une espèce originaire de la planète Sriluur de l''Espace Hutt. ',
         'Aucune',
         '1m89',
         'Divers',
@@ -509,7 +446,7 @@ VALUES
     (
         NULL,
         'Neimoidien',
-        'Les Neimoidiens étaient une espèce humanoïde originaire de la planète Neimoidia. Facilement reconnaissables à leur visage sans nez et leurs yeux rouges et oranges, les Neimoidiens étaient une espèce connue pour sa cupidité et sa couardise.'r'n'r'nNative de la planète de Neimoidia et descendants des Duros, l''espèce des Neimoidiens colonisa de nombreux mondes dans la région des Colonies comme Cato Neimoidia. La société Neimoidienne était obsédée par le statut et la richesse et les Neimoidiens aimaient étaler leur puissance aux yeux de tous.',
+        'Les Neimoidiens étaient une espèce humanoïde originaire de la planète Neimoidia. Facilement reconnaissables à leur visage sans nez et leurs yeux rouges et oranges, les Neimoidiens étaient une espèce connue pour sa cupidité et sa couardise.  Native de la planète de Neimoidia et descendants des Duros, l''espèce des Neimoidiens colonisa de nombreux mondes dans la région des Colonies comme Cato Neimoidia. La société Neimoidienne était obsédée par le statut et la richesse et les Neimoidiens aimaient étaler leur puissance aux yeux de tous.',
         'Humanoïde',
         'Inconnue',
         'Beige - Gris - Vert',
@@ -533,7 +470,7 @@ VALUES
     (
         NULL,
         'Jawa',
-        'Les Jawas étaient un peuple de ferrailleurs originaires de Tatooine, une planète désertique de la Bordure Extérieure.'r'n'r'nLes Jawas étaient facilement reconnaissables par leur petite taille et par le fait qu''ils cachaient leurs visages sous de longues robes marrons.',
+        'Les Jawas étaient un peuple de ferrailleurs originaires de Tatooine, une planète désertique de la Bordure Extérieure.  Les Jawas étaient facilement reconnaissables par leur petite taille et par le fait qu''ils cachaient leurs visages sous de longues robes marrons.',
         'Aucune',
         '1m',
         'Inconnue',
@@ -657,7 +594,7 @@ VALUES
     (
         NULL,
         'Yavin',
-        'Yavin était une planète gazeuse qui n''était pas d''une grande importance géographique, elle se situait dans l''Étendue Gordienne des Territoires de la Bordure Extérieure. Sa quatrième lune, Yavin 4, était quant à elle habitable.'r'n'r'nLes temples Sith qui s''y trouvent furent construits par les Massassis, race disparue depuis longtemps lorsque les rebelles y installèrent leur base secrète.',
+        'Yavin était une planète gazeuse qui n''était pas d''une grande importance géographique, elle se situait dans l''Étendue Gordienne des Territoires de la Bordure Extérieure. Sa quatrième lune, Yavin 4, était quant à elle habitable.  Les temples Sith qui s''y trouvent furent construits par les Massassis, race disparue depuis longtemps lorsque les rebelles y installèrent leur base secrète.',
         'Bordure Extérieure',
         'Yavin',
         '26',
@@ -669,7 +606,7 @@ VALUES
     (
         NULL,
         'Mustafar',
-        'Mustafar était une petite planète volcanique du système Mustafar dans les Territoires de la Bordure Extérieure.'r'n'r'nSituée entre deux géantes gazeuses, elle fut affiliée à la Confédération des systèmes indépendants pendant la Guerre des Clones puis sous l''Empire Galactique après la nationalisation du Techno-Syndicat.',
+        'Mustafar était une petite planète volcanique du système Mustafar dans les Territoires de la Bordure Extérieure.  Située entre deux géantes gazeuses, elle fut affiliée à la Confédération des systèmes indépendants pendant la Guerre des Clones puis sous l''Empire Galactique après la nationalisation du Techno-Syndicat.',
         'Bordure Extérieure',
         'Mustafar',
         '0',
@@ -681,7 +618,7 @@ VALUES
     (
         NULL,
         'Endor',
-        'Endor, aussi appelée Tana par les Ewoks, était une géante gazeuse se trouvant dans le système Endor, un système stellaire comportant deux étoiles, du secteur Moddell des Territoires de la Bordure Extérieure.'r'n'r'nNeuf lunes orbitaient autour d''Endor. La plus grande était sa Lune Forestière peuplée d''Ewoks. La lune océanique Kef Bir était également une lune d''Endor.',
+        'Endor, aussi appelée Tana par les Ewoks, était une géante gazeuse se trouvant dans le système Endor, un système stellaire comportant deux étoiles, du secteur Moddell des Territoires de la Bordure Extérieure.  Neuf lunes orbitaient autour d''Endor. La plus grande était sa Lune Forestière peuplée d''Ewoks. La lune océanique Kef Bir était également une lune d''Endor.',
         'Bordure Extérieure',
         'Endor',
         '9',
@@ -693,7 +630,7 @@ VALUES
     (
         NULL,
         'Jakku',
-        'Jakku était une planète désertique se trouvant dans le système éponyme des Confins Occidentaux de la Bordure Intérieure.'r'n'r'nCinq ans après la bataille de Yavin, elle fut le théâtre de la bataille de Jakku, affrontement majeur et final de la Guerre Civile Galactique qui opposait l''Empire Galactique et la toute jeune Nouvelle République.',
+        'Jakku était une planète désertique se trouvant dans le système éponyme des Confins Occidentaux de la Bordure Intérieure.  Cinq ans après la bataille de Yavin, elle fut le théâtre de la bataille de Jakku, affrontement majeur et final de la Guerre Civile Galactique qui opposait l''Empire Galactique et la toute jeune Nouvelle République.',
         'Bordure Intérieure',
         'Jakku',
         '2',
@@ -705,7 +642,7 @@ VALUES
     (
         NULL,
         'Hoth',
-        'Hoth était la sixième planète du Système Hoth. Il s''agissait d''un monde recouvert de neige et de glace, qui possédait trois lunes.'r'n'r'nConstamment frappée par les météorites, elle ne développa aucune forme de vie intelligente, mais possédait néanmoins quelques formes de vie animales, comme le Tauntaun ou le Wampa.',
+        'Hoth était la sixième planète du Système Hoth. Il s''agissait d''un monde recouvert de neige et de glace, qui possédait trois lunes.  Constamment frappée par les météorites, elle ne développa aucune forme de vie intelligente, mais possédait néanmoins quelques formes de vie animales, comme le Tauntaun ou le Wampa.',
         'Bordure Extérieure',
         'Hoth',
         '3',
@@ -717,7 +654,7 @@ VALUES
     (
         NULL,
         'Felucia',
-        'Felucia était une planète des Territoires de la Bordure Extérieure. Elle se situait le long de la Voie Marchande Perlemienne entre Columex et Lianna et était proche de Lola Sayu.'r'n'r'nMonde reculé du système Felucia, il était envahi par une jungle épaisse, colorée et humide, ponctuée de petits villages agricoles peuplés par les Feluciens de la planète. Plusieurs créatures habitaient aussi ce monde, dont les Gelasticots, les Rancors de la jungle et les Tee-muss.'r'n'r'nMalgré son insignifiance perçue, son emplacement important et ses ressources (y compris le Nysillin, une plante médicinale) provoquèrent plusieurs conflits à la fois en orbite et à la surface de cette planète.',
+        'Felucia était une planète des Territoires de la Bordure Extérieure. Elle se situait le long de la Voie Marchande Perlemienne entre Columex et Lianna et était proche de Lola Sayu.  Monde reculé du système Felucia, il était envahi par une jungle épaisse, colorée et humide, ponctuée de petits villages agricoles peuplés par les Feluciens de la planète. Plusieurs créatures habitaient aussi ce monde, dont les Gelasticots, les Rancors de la jungle et les Tee-muss.  Malgré son insignifiance perçue, son emplacement important et ses ressources (y compris le Nysillin, une plante médicinale) provoquèrent plusieurs conflits à la fois en orbite et à la surface de cette planète.',
         'Bordure Extérieure',
         'Felucia',
         '8',
@@ -729,7 +666,7 @@ VALUES
     (
         NULL,
         'Scarif',
-        'Scarif était une planète située dans les Territoires de la Bordure Extérieure, dans le système Scarif du secteur Abrion. Elle se trouvait au nord de Molavar et était reliée à ce monde par la Route Marchande de Manda, ainsi qu''à Ukio.'r'n'r'nScarif était recouverte d''océans parsemés de chaînes d''îles avec des plages de palmiers tel que les palmiers à noix d''aréca et d''archipels rocheux.',
+        'Scarif était une planète située dans les Territoires de la Bordure Extérieure, dans le système Scarif du secteur Abrion. Elle se trouvait au nord de Molavar et était reliée à ce monde par la Route Marchande de Manda, ainsi qu''à Ukio.  Scarif était recouverte d''océans parsemés de chaînes d''îles avec des plages de palmiers tel que les palmiers à noix d''aréca et d''archipels rocheux.',
         'Bordure Extérieure',
         'Scarif',
         '0',
@@ -741,7 +678,7 @@ VALUES
     (
         NULL,
         'Dantooine',
-        'Dantooine était une planète située dans le secteur Raioballo des Territoires de la Bordure Extérieure, au sud de la Flèche de Myto et du monde de Lah''mu. Elle était reliée aux planètes Ord Trasi et Belladoon par une route hyperspatiale.'r'n'r'nIl s''agissait d''un monde à l''atmosphère respirable pour les humains et possédant une végétation importante avec des forêts luxuriantes et des paysages verts grâce à un climat clément.',
+        'Dantooine était une planète située dans le secteur Raioballo des Territoires de la Bordure Extérieure, au sud de la Flèche de Myto et du monde de Lah''mu. Elle était reliée aux planètes Ord Trasi et Belladoon par une route hyperspatiale.  Il s''agissait d''un monde à l''atmosphère respirable pour les humains et possédant une végétation importante avec des forêts luxuriantes et des paysages verts grâce à un climat clément.',
         'Bordure Extérieure',
         'Dantooine',
         '2',
@@ -753,7 +690,7 @@ VALUES
     (
         NULL,
         'Mygeeto',
-        'Mygeeto était une planète située dans le système Mygeeto du secteur Albarrio, dans les Territoires de la Bordure Extérieure. De plus, elle se trouvait dans la région dite des Nouveaux Territoires.'r'n'r'nElle était reliée aux planètes Ord Trasi et Garqi par une route hyperspatiale. Mygeeto orbitait en troisième position autour de l''étoile Malola et possédait deux lunes.',
+        'Mygeeto était une planète située dans le système Mygeeto du secteur Albarrio, dans les Territoires de la Bordure Extérieure. De plus, elle se trouvait dans la région dite des Nouveaux Territoires.  Elle était reliée aux planètes Ord Trasi et Garqi par une route hyperspatiale. Mygeeto orbitait en troisième position autour de l''étoile Malola et possédait deux lunes.',
         'Bordure Extérieure',
         'Mygeeto',
         '2',
@@ -777,7 +714,7 @@ VALUES
     (
         NULL,
         'D''Qar',
-        'D''Qar était une planète située dans les Territoires de la Bordure Extérieure, dans le système Ileenium.'r'n'r'nElle devint un avant-poste pour l''Alliance Rebelle durant la Guerre Civile Galactique avant d''être réutilisée par la Résistance qui y implanta une base importante.',
+        'D''Qar était une planète située dans les Territoires de la Bordure Extérieure, dans le système Ileenium.  Elle devint un avant-poste pour l''Alliance Rebelle durant la Guerre Civile Galactique avant d''être réutilisée par la Résistance qui y implanta une base importante.',
         'Bordure Extérieure',
         'Ileenium',
         '2',
@@ -789,7 +726,7 @@ VALUES
     (
         NULL,
         'Tatooine',
-        'Tatooine était un monde désertique situé dans le secteur Arkanis de la Territoires de la Bordure Extérieure.'r'n'r'nDes fossiles laissaient penser aux scientifiques que Tatooine avait été recouverte par un océan à l''instar de Kamino.',
+        'Tatooine était un monde désertique situé dans le secteur Arkanis de la Territoires de la Bordure Extérieure.  Des fossiles laissaient penser aux scientifiques que Tatooine avait été recouverte par un océan à l''instar de Kamino.',
         'Bordure Extérieure',
         'Tatoo',
         '2',
@@ -801,7 +738,7 @@ VALUES
     (
         NULL,
         'Ryloth',
-        'Ryloth était une planète se situant dans le système Ryloth des Territoires de la Bordure Extérieure de la galaxie.'r'n'r'nC''était le monde rocheux d''origine des Twi''leks, des humanoïdes possédant des queues crâniennes appelé Lekku et parlant le Ryl.',
+        'Ryloth était une planète se situant dans le système Ryloth des Territoires de la Bordure Extérieure de la galaxie.  C''était le monde rocheux d''origine des Twi''leks, des humanoïdes possédant des queues crâniennes appelé Lekku et parlant le Ryl.',
         'Bordure Extérieure',
         'Ryloth',
         '5',
@@ -825,7 +762,7 @@ VALUES
     (
         NULL,
         'Geonosis',
-        'Monde rocheux situé à moins d''un parsec de Tatooine, Geonosis était une planète se trouvant au-delà des frontières de la République Galactique.'r'n'r'nSa surface peu engageante était dominée par les rochers, les crevasses et les déserts. Le sol et le ciel étaient teintés de rouge et les créatures qui évoluèrent sur Geonosis étaient bien équipées pour survivre dans ce milieu hostile.',
+        'Monde rocheux situé à moins d''un parsec de Tatooine, Geonosis était une planète se trouvant au-delà des frontières de la République Galactique.  Sa surface peu engageante était dominée par les rochers, les crevasses et les déserts. Le sol et le ciel étaient teintés de rouge et les créatures qui évoluèrent sur Geonosis étaient bien équipées pour survivre dans ce milieu hostile.',
         'Bordure Extérieure',
         'Geonosis',
         '15',
@@ -837,7 +774,7 @@ VALUES
     (
         NULL,
         'Takodana',
-        'Takodana était une planète située dans les Confins Occidentaux, dans le secteur Tashtor de la Bordure Médiane. Elle était reliée à Noe''ha''on et Chalcedon par une route hyperspatiale.'r'n'r'nÉclairée par une étoile, elle possédait un climat clément permettant la pousse de végétation, en forêts et plaines luxuriantes. On y trouvait différents plans d''eau dont le lac Nymeve.',
+        'Takodana était une planète située dans les Confins Occidentaux, dans le secteur Tashtor de la Bordure Médiane. Elle était reliée à Noe''ha''on et Chalcedon par une route hyperspatiale.  Éclairée par une étoile, elle possédait un climat clément permettant la pousse de végétation, en forêts et plaines luxuriantes. On y trouvait différents plans d''eau dont le lac Nymeve.',
         'Bordure Médiane',
         'Takodana',
         '0',
@@ -849,7 +786,7 @@ VALUES
     (
         NULL,
         'Naboo',
-        'Naboo était une planète située dans la Bordure Médiane, dans le secteur Chommell.'r'nLes humains et les Gungans y cohabitaient bien qu''ils s''évitaient mutuellement, jusqu''à leur coalition contre les troupes d''invasion de la Fédération du commerce en 32 av.BY.'r'n'r'nLes premiers vivaient dans des villes à l''architecture vénitienne, les seconds vivaient dans des cités sous-marines d''architecture de genre art nouveau. La capitale de Naboo était la cité de Theed, située en bordure d''une haute falaise.',
+        'Naboo était une planète située dans la Bordure Médiane, dans le secteur Chommell. Les humains et les Gungans y cohabitaient bien qu''ils s''évitaient mutuellement, jusqu''à leur coalition contre les troupes d''invasion de la Fédération du commerce en 32 av.BY.  Les premiers vivaient dans des villes à l''architecture vénitienne, les seconds vivaient dans des cités sous-marines d''architecture de genre art nouveau. La capitale de Naboo était la cité de Theed, située en bordure d''une haute falaise.',
         'Bordure Médiane',
         'Naboo',
         '3',
@@ -861,7 +798,7 @@ VALUES
     (
         NULL,
         'Coruscant',
-        'Coruscant, aussi connue sous le nom de Centre Impérial sous le règne de l''Empire Galactique, était une planète tellurique des Mondes du Noyau entièrement urbanisée et recouvertes d''infrastructures. Considérée comme le berceau de l''espèce humaine, Coruscant devint rapidement la plus importante planète de la galaxie et obtint rapidement le statut d''œcuménopole en raison de la diversité des espèces immigrées qui la peuplaient.'r'n'r'nSituée aux points de coordonnées originels, Coruscant était le centre névralgique des échanges galactiques et était située sur le tracé des deux principales voies marchandes galactiques.'r'n'r'nSurpeuplée, la planète était entièrement creusée et l''urbanisation s''étendait dès lors sur plus de 5000 niveaux inférieurs qui s''enfonçaient dans la croûte de la planète.',
+        'Coruscant, aussi connue sous le nom de Centre Impérial sous le règne de l''Empire Galactique, était une planète tellurique des Mondes du Noyau entièrement urbanisée et recouvertes d''infrastructures. Considérée comme le berceau de l''espèce humaine, Coruscant devint rapidement la plus importante planète de la galaxie et obtint rapidement le statut d''œcuménopole en raison de la diversité des espèces immigrées qui la peuplaient.  Située aux points de coordonnées originels, Coruscant était le centre névralgique des échanges galactiques et était située sur le tracé des deux principales voies marchandes galactiques.  Surpeuplée, la planète était entièrement creusée et l''urbanisation s''étendait dès lors sur plus de 5000 niveaux inférieurs qui s''enfonçaient dans la croûte de la planète.',
         'Mondes du Noyau',
         'Coruscant',
         '4',
@@ -873,7 +810,7 @@ VALUES
     (
         NULL,
         'Alderaan',
-        'Alderaan, parfois appelée Aldorande ou Aldérande, était une planète située au centre de la galaxie, non loin de Coruscant, dans les Mondes du Noyau.'r'n'r'nC''était une planète d''où venaient beaucoup de personnes célèbres dans la galaxie comme Leia Organa et Bail Prestor Organa. Elle avait une renommée galactique pour la beauté préservée de ses paysages.',
+        'Alderaan, parfois appelée Aldorande ou Aldérande, était une planète située au centre de la galaxie, non loin de Coruscant, dans les Mondes du Noyau.  C''était une planète d''où venaient beaucoup de personnes célèbres dans la galaxie comme Leia Organa et Bail Prestor Organa. Elle avait une renommée galactique pour la beauté préservée de ses paysages.',
         'Mondes du Noyau',
         'Alderaan',
         '0',
@@ -885,7 +822,7 @@ VALUES
     (
         NULL,
         'Lah’Mu',
-        'Lah''mu était une planète relativement inaccessible dans le secteur Raioballo des Territoires de la Bordure Extérieure, loin des routes hyperspatiales majeures.'r'n'r'nElle se situait au nord de la Flèche de Myto menant à Dantooine et tout proche du secteur Chopani avec le Vide de Chopani. Son anneau planétaire était principalement constitué de silicate formé de l''une des anciennes lunes de la planète, pulvérisée bien avant la Guerre des Clones.'r'n'r'nLe monde possédait néanmoins encore un satellite naturel.',
+        'Lah''mu était une planète relativement inaccessible dans le secteur Raioballo des Territoires de la Bordure Extérieure, loin des routes hyperspatiales majeures.  Elle se situait au nord de la Flèche de Myto menant à Dantooine et tout proche du secteur Chopani avec le Vide de Chopani. Son anneau planétaire était principalement constitué de silicate formé de l''une des anciennes lunes de la planète, pulvérisée bien avant la Guerre des Clones.  Le monde possédait néanmoins encore un satellite naturel.',
         'Bordure Extérieure',
         'Lah''mu',
         '1',
@@ -897,7 +834,7 @@ VALUES
     (
         NULL,
         'Kashyyyk',
-        'Kashyyyk était une planète tempérée recouverte de jungle et de forêts. Orbitant autour d''une étoile unique, elle se trouvait dans le secteur Mytaranor de la Bordure Médiane.'r'n'r'nKashyyyk possédait trois lunes, dont une qui était de couleur orange. Elle était couverte d''arbres Wroshyr et était le monde d''origine des Wookiees.'r'n'r'nLa faune locale, comme les can-cells, inspira le design des vaisseaux construits par les Wookiees. À l''instar de Kachirho, des villes étaient construites à l''intérieur des arbres de la planète.',
+        'Kashyyyk était une planète tempérée recouverte de jungle et de forêts. Orbitant autour d''une étoile unique, elle se trouvait dans le secteur Mytaranor de la Bordure Médiane.  Kashyyyk possédait trois lunes, dont une qui était de couleur orange. Elle était couverte d''arbres Wroshyr et était le monde d''origine des Wookiees.  La faune locale, comme les can-cells, inspira le design des vaisseaux construits par les Wookiees. À l''instar de Kachirho, des villes étaient construites à l''intérieur des arbres de la planète.',
         'Bordure Médiane',
         'Kashyyyk',
         '3',
@@ -909,7 +846,7 @@ VALUES
     (
         NULL,
         'Sullust',
-        'Sullust était une planète du système Sullust, dans le secteur Sullust des Territoires de la Bordure Extérieure. Elle se trouvait le long de la Voie Marchande de Rimma, entre Vondarc et Eriadu.'r'n'r'nC''était une planète couverte de volcans et de lave, cela força les Sullustans à vivre sous terre dans des cités construites dans des grottes. La Corporation SoroSuub employait de nombreux Sullustans sur Sullust dans des usines.',
+        'Sullust était une planète du système Sullust, dans le secteur Sullust des Territoires de la Bordure Extérieure. Elle se trouvait le long de la Voie Marchande de Rimma, entre Vondarc et Eriadu.  C''était une planète couverte de volcans et de lave, cela força les Sullustans à vivre sous terre dans des cités construites dans des grottes. La Corporation SoroSuub employait de nombreux Sullustans sur Sullust dans des usines.',
         'Bordure Extérieure',
         'Sullust',
         '1',
@@ -921,7 +858,7 @@ VALUES
     (
         NULL,
         'Utapau',
-        'Utapau était une planète du système Utapau localisé dans le secteur Terrabe, un secteur isolé de la Bordure Extérieure. La planète avait neuf lunes en orbite. Utapau était recouverte de déserts parsemés de gouffres.'r'n'r'nLa surface de la planète était inhabitable pour la majeure partie des espèces à cause de tempêtes de vents ultraviolents. La planète était recouverte par un océan souterrain et la position des lunes influait sur le rythme des marées de l''océan.'r'n'r'nCes océans regorgeaient de précieux minéraux qui étaient extraits par les Utais. La position des lunes d''Utapau était également responsable de terribles tremblements de terre qui creusaient les gouffres de la planète.'r'n'r'nUtais et Pau''ans s''étaient ainsi installé sur le continent le moins frappé par les séismes.',
+        'Utapau était une planète du système Utapau localisé dans le secteur Terrabe, un secteur isolé de la Bordure Extérieure. La planète avait neuf lunes en orbite. Utapau était recouverte de déserts parsemés de gouffres.  La surface de la planète était inhabitable pour la majeure partie des espèces à cause de tempêtes de vents ultraviolents. La planète était recouverte par un océan souterrain et la position des lunes influait sur le rythme des marées de l''océan.  Ces océans regorgeaient de précieux minéraux qui étaient extraits par les Utais. La position des lunes d''Utapau était également responsable de terribles tremblements de terre qui creusaient les gouffres de la planète.  Utais et Pau''ans s''étaient ainsi installé sur le continent le moins frappé par les séismes.',
         'Bordure Extérieure',
         'Utapau',
         '9',
@@ -945,7 +882,7 @@ VALUES
     (
         NULL,
         'Dagobah',
-        'Bien que proche de mondes comme Xagobah ou Sluis Van, Dagobah fut oubliée, car elle n''était présente sur aucune carte stellaire. Malgré cela, la planète n''était pas désertique.'r'n'r'nAu contraire, elle recelait un nombre incalculable d''espèces vivantes animales ou végétales. En effet, le climat très humide et l''apparition de marais à sa surface expliquaient grandement un développement d''une telle intensité.',
+        'Bien que proche de mondes comme Xagobah ou Sluis Van, Dagobah fut oubliée, car elle n''était présente sur aucune carte stellaire. Malgré cela, la planète n''était pas désertique.  Au contraire, elle recelait un nombre incalculable d''espèces vivantes animales ou végétales. En effet, le climat très humide et l''apparition de marais à sa surface expliquaient grandement un développement d''une telle intensité.',
         'Bordure Extérieure',
         'Dagobah',
         '1',
@@ -957,7 +894,7 @@ VALUES
     (
         NULL,
         'Kamino',
-        'Kamino était une planète aquatique située au-delà des Territoires de la Bordure Extérieure, dans l''extragalactique. Il s''agissait de la planète d''origine des Kaminoans.'r'n'r'nEn 32 av.BY, le Comte Dooku, après avoir assassiné le Maître Jedi Sifo Dyas, commanda en empruntant l''identité de ce dernier, une armée de clones pour la République Galactique ayant pour modèle le chasseur de primes Jango Fett. Les Kaminoans se mirent au travail afin de fournir au mieux la nouvelle armée de la République.',
+        'Kamino était une planète aquatique située au-delà des Territoires de la Bordure Extérieure, dans l''extragalactique. Il s''agissait de la planète d''origine des Kaminoans.  En 32 av.BY, le Comte Dooku, après avoir assassiné le Maître Jedi Sifo Dyas, commanda en empruntant l''identité de ce dernier, une armée de clones pour la République Galactique ayant pour modèle le chasseur de primes Jango Fett. Les Kaminoans se mirent au travail afin de fournir au mieux la nouvelle armée de la République.',
         'Extragalactique',
         'Kamino',
         '3',
@@ -969,7 +906,7 @@ VALUES
     (
         NULL,
         'Bespin',
-        'Bespin était une géante gazeuse située dans le secteur Anoat, un secteur désolé des Territoires de la Bordure Extérieure de la galaxie.'r'n'r'nElle possédait plusieurs lunes et sa masse gazeuse contenait une mince couche d''atmosphère habitable. À l''instar de la Cité des Nuages, plusieurs complexes récoltait et raffinait le gaz tibanna contenu dans son atmosphère.'r'n'r'nUgnorgrad, une ville Ugnaught gouvernée par le Roi Ozz après la bataille d''Endor, se trouvait également sur Bespin.',
+        'Bespin était une géante gazeuse située dans le secteur Anoat, un secteur désolé des Territoires de la Bordure Extérieure de la galaxie.  Elle possédait plusieurs lunes et sa masse gazeuse contenait une mince couche d''atmosphère habitable. À l''instar de la Cité des Nuages, plusieurs complexes récoltait et raffinait le gaz tibanna contenu dans son atmosphère.  Ugnorgrad, une ville Ugnaught gouvernée par le Roi Ozz après la bataille d''Endor, se trouvait également sur Bespin.',
         'Bordure Extérieure',
         'Bespin',
         '2',
@@ -1063,7 +1000,7 @@ VALUES
     (
         NULL,
         'Shmi Skywalker Lars',
-        'Shmi Skywalker était la mère d''Anakin Skywalker, la belle-mère d''Owen Lars et la grand-mère de Luke Skywalker et de Leia Organa.'r'nAlors qu''elle était esclave, elle donna naissance à Anakin, qui fut conçu par les midi-chloriens pour réaliser la prophétie de l''Élu et rétablir l''équilibre dans la Force. Après le départ d''Anakin pour devenir un Jedi, elle fut vendu à Cliegg Lars qui l''affranchit avant de l''épouser. Peu de temps avant que la Guerre des Clones ne débute, elle mourut dans les bras de son fils après avoir été capturée et torturée par des pillards Tuskens.',
+        'Shmi Skywalker était la mère d''Anakin Skywalker, la belle-mère d''Owen Lars et la grand-mère de Luke Skywalker et de Leia Organa. Alors qu''elle était esclave, elle donna naissance à Anakin, qui fut conçu par les midi-chloriens pour réaliser la prophétie de l''Élu et rétablir l''équilibre dans la Force. Après le départ d''Anakin pour devenir un Jedi, elle fut vendu à Cliegg Lars qui l''affranchit avant de l''épouser. Peu de temps avant que la Guerre des Clones ne débute, elle mourut dans les bras de son fils après avoir été capturée et torturée par des pillards Tuskens.',
         'Aucun',
         '72 av B.Y',
         'Tatooine',
@@ -1203,7 +1140,7 @@ VALUES
     (9, 4),
     (2, 3),
     (2, 6),
-    (2, 14),
+    (2, 5),
     (10, 3),
     (4, 4),
     (4, 5),

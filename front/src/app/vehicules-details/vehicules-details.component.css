@@ -13,6 +13,7 @@
 }
 
 .infos-principales {
+  overflow: auto;
   flex: 2;
   border-radius: 20px;
   border: solid 3px #ead51eff;
