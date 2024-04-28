@@ -11,6 +11,11 @@ export class EspecesController {
         return this.service.getEspeces();
     }
 
+    @Get('nom/:nom')
+    getAllByName(@Param() params) {
+        return this.service.getEspecesByName(params.nom);
+    }
+
     @Get(':id')
     get(@Param() params) {
         return this.service.getEspece(params.id);
