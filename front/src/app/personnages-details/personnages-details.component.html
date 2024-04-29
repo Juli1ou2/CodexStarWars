@@ -1,0 +1,61 @@
+<app-border-container [titre]="'Details'">
+  <div class="container1">
+    <div class="infos-principales">
+      <img
+        src="{{ personnageDetails.image }}"
+        height="300px"
+        alt="Illustration"
+      />
+      <h2>{{ personnageDetails.nom }}</h2>
+      <div class="infos">
+        <p>
+          alias : <span class="important">{{ personnageDetails.alias }}</span>
+        </p>
+        <p>
+          date de naissance :
+          <span class="important">{{
+            personnageDetails.date_de_naissance
+          }}</span>
+        </p>
+        <p>
+          Lieu de naissance :
+          <span class="important">{{
+            personnageDetails.lieu_de_naissance
+          }}</span>
+        </p>
+        <p>
+          date de mort :
+          <span class="important">{{ personnageDetails.date_de_mort }}</span>
+        </p>
+        <p>
+          Lieu de mort
+          <span class="important">{{ personnageDetails.lieu_de_mort }}</span>
+        </p>
+        <p>
+          genre : <span class="important">{{ personnageDetails.genre }}</span>
+        </p>
+      </div>
+    </div>
+    <div class="description">
+      <h3>Description</h3>
+      <p>{{ personnageDetails.description }}</p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="actions">
+      <a title="Ajouter"
+        ><img src="assets/boutons/add.png" height="45px" alt="Bouton ajouter"
+      /></a>
+      <a title="Modifier"
+        ><img src="assets/boutons/edit.png" height="45px" alt="Bouton modifier"
+      /></a>
+      <a title="Supprimer" (click)="deletePersonnage()"
+        ><img
+          src="assets/boutons/delete.png"
+          height="45px"
+          alt="Bouton supprimer"
+      /></a>
+    </div>
+  </div>
+</app-border-container>

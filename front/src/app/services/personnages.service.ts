@@ -3,30 +3,30 @@ import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { CONSTANTES } from '../constantes.enum';
-import { Espece } from '../interfaces/espece';
-
+import { Personnage } from '../interfaces/personnage';
 @Injectable({
   providedIn: 'root',
 })
-export class EspecesService {
+export class PersonnagesService {
   constructor(private http: HttpClient, private router: Router) {}
 
-  getEspeces(): Observable<Espece[]> {
-    return this.http.get<Espece[]>(CONSTANTES.API_URL + 'especes', {
+  getPersonnages(): Observable<Personnage[]> {
+    return this.http.get<Personnage[]>(CONSTANTES.API_URL + 'personnages', {
       headers: new HttpHeaders({
         'Content-Type': 'application/json',
       }),
     });
   }
 
-  searchEspeces(nom: string): Observable<Espece[]> {
-    return this.http.get<Espece[]>(CONSTANTES.API_URL + 'especes/nom/' + nom);
+  searchPersonnages(nom: string): Observable<Personnage[]> {
+    return this.http.get<Personnage[]>(
+      CONSTANTES.API_URL + 'personnages/nom/' + nom
+    );
   }
 
-  getEspece(id: string): Observable<Espece> {
-    return this.http.get<Espece>(CONSTANTES.API_URL + 'especes/' + id);
+  getPersonnage(id: string): Observable<Personnage> {
+    return this.http.get<Personnage>(CONSTANTES.API_URL + 'personnages/' + id);
   }
-
   delete(id: number) {
     this.http
       .delete(CONSTANTES.API_URL + 'personnages/' + id.toString())

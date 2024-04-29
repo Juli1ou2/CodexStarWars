@@ -1,15 +1,15 @@
 form {
   display: flex;
-  width: 90%;
+  width: 50%;
   margin: 0% auto 2% auto;
 }
 
-.liste-especes {
+.liste-personnages {
   height: 60vh;
   overflow: auto;
 }
 
-.espece {
+.personnage {
   display: flex;
   width: 40%;
   border-radius: 20px;
@@ -19,11 +19,11 @@ form {
   text-decoration: none;
 }
 
-.espece:hover {
+.personnage:hover {
   border: solid 3px rgb(75, 213, 238);
 }
 
-.espece:active {
+.personnage:active {
   border: solid 3px rgb(248, 7, 7);
 }
 
