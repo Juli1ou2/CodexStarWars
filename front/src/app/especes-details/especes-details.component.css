@@ -1,6 +1,6 @@
 .container1 {
   display: flex;
-  max-height: 48vh;
+  max-height: 98vh;
   overflow: auto;
   flex: 2;
   justify-content: space-between;
