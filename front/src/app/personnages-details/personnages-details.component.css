@@ -1,6 +1,6 @@
 .container1 {
   display: flex;
-  max-height: 48vh;
+
   overflow: auto;
   flex: 2;
   justify-content: space-between;
@@ -8,13 +8,14 @@
 }
 
 .container2 {
-  display: flex;
   margin: 1%;
   flex: 1;
 }
-
+app-liste-especes {
+  flex: auto;
+  margin-right: 1%;
+}
 .infos-principales {
-  overflow: auto;
   flex: 2;
   border-radius: 20px;
   border: solid 3px #ead51eff;

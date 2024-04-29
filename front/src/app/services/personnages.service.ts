@@ -40,4 +40,19 @@ export class PersonnagesService {
         }
       );
   }
+  post(personnage: Personnage) {
+    this.http.post(CONSTANTES.API_URL + 'personnages', personnage, {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+    });
+  }
+
+  put(personnage: Personnage) {
+    this.http.post(CONSTANTES.API_URL + 'personnages', personnage, {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+    });
+  }
 }

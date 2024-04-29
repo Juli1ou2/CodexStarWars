@@ -3,7 +3,7 @@
     <div class="infos-principales">
       <img
         src="{{ personnageDetails.image }}"
-        height="300px"
+        height="200px"
         alt="Illustration"
       />
       <h2>{{ personnageDetails.nom }}</h2>
@@ -41,8 +41,10 @@
       <p>{{ personnageDetails.description }}</p>
     </div>
   </div>
-
   <div class="container2">
+    <!-- <app-liste-especes
+      [especes]="personnageDetails.especes"
+    ></app-liste-espece> -->
     <div class="actions">
       <a title="Ajouter"
         ><img src="assets/boutons/add.png" height="45px" alt="Bouton ajouter"
