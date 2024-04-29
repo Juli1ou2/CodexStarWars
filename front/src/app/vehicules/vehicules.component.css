@@ -17,6 +17,7 @@ form {
   margin: 1% auto;
   padding: 1%;
   text-decoration: none;
+  align-items: center;
 }
 
 .vehicule:hover {

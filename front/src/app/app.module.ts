@@ -15,6 +15,7 @@ import { VehiculesDetailsComponent } from './vehicules-details/vehicules-details
 import { ListeOrganisationsComponent } from './commun/liste-organisations/liste-organisations.component';
 import { EspecesComponent } from './especes/especes.component';
 import { EspecesDetailsComponent } from './especes-details/especes-details.component';
+import { VehiculeFormComponent } from './vehicule-form/vehicule-form.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { EspecesDetailsComponent } from './especes-details/especes-details.compo
     VehiculesDetailsComponent,
     ListeOrganisationsComponent,
     EspecesComponent,
-    EspecesDetailsComponent
+    EspecesDetailsComponent,
+    VehiculeFormComponent
   ],
   imports: [
     BrowserModule,

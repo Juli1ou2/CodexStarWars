@@ -5,6 +5,7 @@ import { VehiculesComponent } from './vehicules/vehicules.component';
 import { VehiculesDetailsComponent } from './vehicules-details/vehicules-details.component';
 import { EspecesComponent } from './especes/especes.component';
 import { EspecesDetailsComponent } from './especes-details/especes-details.component';
+import { VehiculeFormComponent } from './vehicule-form/vehicule-form.component';
 
 const routes: Routes = [
   { path: 'vehicules', component: VehiculesComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
   { path: 'vehicules/details/:id', component: VehiculesDetailsComponent },
+  { path: 'vehicules/form/:id', component: VehiculeFormComponent },
   { path: 'especes/details/:id', component: EspecesDetailsComponent },
 ];
 

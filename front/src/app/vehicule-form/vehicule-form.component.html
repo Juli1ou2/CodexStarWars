@@ -1,0 +1,154 @@
+<app-border-container [titre]="titrePage">
+  <div class="container">
+    <div class="mx-auto col-6">
+      <form #formVehicule="ngForm" (ngSubmit)="submit(formVehicule.value)">
+        <div class="mb-3">
+          <label class="form-label">Nom</label>
+          <input
+            type="text"
+            required
+            class="form-control"
+            id="nomInput"
+            placeholder="Faucon Millenium"
+            name="nom"
+            autofocus
+            ngModel="{{dataVehicule.nom}}"
+          />
+          <label class="form-label">Description</label>
+          <textarea
+            class="form-control"
+            required
+            id="descriptionInput"
+            placeholder="Le faucon Millenium était le vaisseau de Han Solo..."
+            name="description"
+            maxlength="1000"
+            rows="5"
+            ngModel="{{dataVehicule.description}}"
+          ></textarea>
+          <div class="container1">
+            <div class="container">
+              <label class="form-label">Longueur</label>
+              <input
+                type="text"
+                required
+                class="form-control"
+                id="longueurInput"
+                placeholder="40,8m"
+                name="longueur"
+                ngModel="{{dataVehicule.longueur}}"
+              />
+              <label class="form-label">Type</label>
+              <input
+                type="text"
+                required
+                class="form-control"
+                id="typeInput"
+                placeholder="Vaisseau"
+                name="type"
+                ngModel="{{dataVehicule.type}}"
+              />
+              <label class="form-label">Nombre max de membres d'équipage</label>
+              <input
+                type="number"
+                required
+                class="form-control"
+                id="nbEquipageInput"
+                placeholder="8"
+                name="nbEquipage"
+                ngModel="{{dataVehicule.nbEquipage}}"
+              />
+            </div>
+            <div class="container">
+              <label class="form-label">Vitesse</label>
+              <input
+                type="text"
+                required
+                class="form-control"
+                id="vitesseInput"
+                placeholder="1050 km/h"
+                name="vitesse"
+                ngModel="{{dataVehicule.vitesse}}"
+              />
+
+              <label class="form-label">Classe</label>
+              <input
+                type="text"
+                required
+                class="form-control"
+                id="classeInput"
+                placeholder="Cargo YT-1300f"
+                name="classe"
+                ngModel="{{dataVehicule.classe}}"
+              />
+              <label class="form-label">Moteur</label>
+              <input
+                type="text"
+                required
+                class="form-control"
+                id="moteurInput"
+                placeholder="2 moteurs subluminiques SRB42 de Girodyne"
+                name="moteur"
+                ngModel="{{dataVehicule.moteur}}"
+              />
+            </div>
+          </div>
+
+          <label class="form-label">Armes</label>
+          <input
+            type="text"
+            required
+            class="form-control"
+            id="armesInput"
+            placeholder="1 canon laser lourd, 2 quadruple canons laser, 2 tubes lance-missiles, 1 canon blaster"
+            name="armes"
+            ngModel="{{dataVehicule.armes}}"
+          />
+
+          <label class="form-label">URL de l'image d'illustration</label>
+          <input
+            type="text"
+            required
+            class="form-control"
+            id="imageInput"
+            placeholder="https://..."
+            name="image"
+            ngModel="{{dataVehicule.image}}"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input
+            type="checkbox"
+            required
+            class="form-check-input"
+            id="exampleCheck1"
+          />
+          <label class="form-check-label" for="exampleCheck1"
+            >En cochant la case, je confirme les informations
+            renseignées.</label
+          >
+        </div>
+        <button type="submit" class="btn btn-warning">Valider</button>
+      </form>
+    </div>
+  </div>
+
+  <input
+    type="text"
+    id="name"
+    name="name"
+    class="form-control"
+    required
+    minlength="4"
+    appForbiddenName="bobby"
+    [(ngModel)]="dataVehicule.nom"
+    #name="ngModel"
+  />
+
+  <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert">
+    <div *ngIf="name.errors?.['required']">Name is required.</div>
+    <div *ngIf="name.errors?.['minlength']">
+      Name must be at least 4 characters long.
+    </div>
+    <div *ngIf="name.errors?.['forbiddenName']">Name cannot be Bob.</div>
+  </div>
+</app-border-container>

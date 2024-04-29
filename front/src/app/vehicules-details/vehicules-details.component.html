@@ -44,17 +44,11 @@
       [organisations]="vehiculeDetails.organisations"
     ></app-liste-organisations>
     <div class="actions">
-      <a title="Ajouter"
-        ><img
-          src="assets/boutons/add.png"
-          height="45px"
-          alt="Bouton ajouter"
+      <a title="Ajouter" routerLink="/vehicules/form/0"
+        ><img src="assets/boutons/add.png" height="45px" alt="Bouton ajouter"
       /></a>
-      <a title="Modifier"
-        ><img
-          src="assets/boutons/edit.png"
-          height="45px"
-          alt="Bouton modifier"
+      <a title="Modifier" routerLink="/vehicules/form/{{ vehiculeDetails.id }}"
+        ><img src="assets/boutons/edit.png" height="45px" alt="Bouton modifier"
       /></a>
       <a title="Supprimer" (click)="deleteVehicule()"
         ><img

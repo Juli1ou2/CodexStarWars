@@ -947,7 +947,7 @@ VALUES
     ),
     (
         NULL,
-        'Padmé Amidala',
+        'Padme Amidala',
         'Padmé Amidala de Naboo, née Padmé Naberrie, connue sous les titres successifs de Reine Amidala de Naboo puis de Sénatrice Padmé Amidala de Naboo, est la fille de Ruwee et Jobal Naberrie, et la sœur cadette de Sola Naberrie. Elle devint au cours de sa vie l''épouse secrète du chevalier Jedi Anakin Skywalker et la mère de Luke et de Leia. Elle perdit la vie à la suite de son accouchement.',
         'Aucun',
         '46 av B.Y',
