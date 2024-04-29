@@ -1,0 +1,32 @@
+<app-border-container [titre]="'Personnages'">
+  <form
+    class="mt-2"
+    role="search"
+    #searchBar="ngForm"
+    (ngSubmit)="submit(searchBar.value.search)"
+  >
+    <input
+      class="form-control me-2"
+      type="search"
+      placeholder="Faucon Millenium..."
+      aria-label="Search"
+      name="search"
+      ngModel
+    />
+    <button class="btn btn-outline-warning" type="submit">Search</button>
+  </form>
+
+  <div class="liste-personnages">
+    <a
+      class="personnage"
+      *ngFor="let personnage of personnages"
+      routerLink="details/{{ personnage.id }}"
+    >
+      <img src="{{ personnage.image }}" height="90px" alt="Illustration" />
+      <div class="side-infos">
+        <p>{{ personnage.nom }}</p>
+        <p>{{ personnage.alias }}</p>
+      </div>
+    </a>
+  </div>
+</app-border-container>

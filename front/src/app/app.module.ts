@@ -1,18 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { AccueilComponent } from './accueil/accueil.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { AccueilComponent } from './accueil/accueil.component';
-import { CategoryButtonComponent } from './commun/category-button/category-button.component';
-import { VehiculesComponent } from './vehicules/vehicules.component';
 import { BorderContainerComponent } from './commun/border-container/border-container.component';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { VehiculesDetailsComponent } from './vehicules-details/vehicules-details.component';
+import { CategoryButtonComponent } from './commun/category-button/category-button.component';
 import { ListeOrganisationsComponent } from './commun/liste-organisations/liste-organisations.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { VehiculesDetailsComponent } from './vehicules-details/vehicules-details.component';
+import { VehiculesComponent } from './vehicules/vehicules.component';
+
+import { PersonnagesDetailsComponent } from './personnages-details/personnages-details.component';
+import { PersonnagesComponent } from './personnages/personnages.component';
 import { EspecesComponent } from './especes/especes.component';
 import { EspecesDetailsComponent } from './especes-details/especes-details.component';
 
@@ -27,16 +30,13 @@ import { EspecesDetailsComponent } from './especes-details/especes-details.compo
     BorderContainerComponent,
     VehiculesDetailsComponent,
     ListeOrganisationsComponent,
+    PersonnagesComponent,
+    PersonnagesDetailsComponent,
     EspecesComponent,
-    EspecesDetailsComponent
+    EspecesDetailsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FormsModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
