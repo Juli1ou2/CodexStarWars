@@ -11,6 +11,11 @@ export class OrganisationsController {
         return this.service.getOrganisations();
     }
 
+    @Get('nom/:nom')
+    getAllByName(@Param() params) {
+        return this.service.getOrganisationsByName(params.nom);
+    }
+    
     @Get(':id')
     get(@Param() params) {
         return this.service.getOrganisation(params.id);

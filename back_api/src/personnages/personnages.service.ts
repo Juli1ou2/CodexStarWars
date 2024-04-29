@@ -19,6 +19,13 @@ export class PersonnagesService {
       where: [{ id: _id }],
     });
   }
+  async getPersonnagesByName(_nom: string): Promise<Personnage[]> {
+    return await this.personnagesRepository
+      .createQueryBuilder('personnage')
+      .where('personnage.nom like :nom', { nom: `%${_nom}%` })
+      .orderBy('personnage.nom', 'ASC')
+      .getMany();
+  }
 
   async createPersonnage(personnage: Personnage) {
     this.personnagesRepository.save(personnage);

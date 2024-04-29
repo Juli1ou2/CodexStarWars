@@ -19,6 +19,13 @@ export class EspecesService {
       where: [{ id: _id }],
     });
   }
+  async getEspecesByName(_nom: string): Promise<Espece[]> {
+    return await this.especesRepository
+      .createQueryBuilder('espece')
+      .where('espece.nom like :nom', { nom: `%${_nom}%` })
+      .orderBy('espece.nom', 'ASC')
+      .getMany();
+  }
 
   async createEspece(espece: Espece) {
     this.especesRepository.save(espece);

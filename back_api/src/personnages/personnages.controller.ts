@@ -23,6 +23,10 @@ export class PersonnagesController {
   get(@Param() params) {
     return this.service.getPersonnage(params.id);
   }
+  @Get('nom/:nom')
+  getAllByName(@Param() params) {
+    return this.service.getPersonnagesByName(params.nom);
+  }
 
   @Post()
   create(@Body() personnage: Personnage) {
