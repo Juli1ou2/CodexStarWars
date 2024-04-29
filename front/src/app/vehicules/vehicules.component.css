@@ -37,14 +37,27 @@ form {
   color: white;
 }
 
-img {
+.vehicule img {
   border-radius: 8px;
   border: solid 2px rgba(255, 255, 255, 0);
   background-color: #d8d8c3ff;
 }
 
+form img {
+  margin-left: 15%;
+}
+
+form a:hover {
+  opacity: 80%;
+}
+form a:active {
+  opacity: 60%;
+}
+
 p {
   margin-bottom: 0%;
+  font-family: "AnonymousPro";
+  font-size: large;
 }
 
 p:first-child {

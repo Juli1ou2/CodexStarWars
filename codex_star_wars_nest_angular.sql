@@ -137,7 +137,7 @@ VALUES
         'Inconnu',
         'Multiples',
         4,
-        'https://lh3.googleusercontent.com/proxy/qeglNErFKDoA7_L0YQwfnXDCcuqvvOFXS5RXEtAPB2l88klvINUivJuLa7TJEqkYdZhaZFQh7oWSywWXaBvRkiR4HX_AAHqGSg7im7pq',
+        'https://img1.starwars-holonet.com/holonet/dictionnaire/photos/ship_cimeterre_2.jpg',
         'vaisseau'
     ),
     (
