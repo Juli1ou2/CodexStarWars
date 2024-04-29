@@ -1,5 +1,5 @@
 <app-border-container [titre]="titrePage">
-  <div class="container">
+  <div class="bloc">
     <div class="mx-auto col-6">
       <form #formVehicule="ngForm" (ngSubmit)="submit(formVehicule.value)">
         <div class="mb-3">
@@ -13,7 +13,7 @@
             placeholder="Faucon Millenium"
             name="nom"
             autofocus
-            ngModel="{{dataVehicule.nom}}"
+            ngModel="{{ dataVehicule.nom }}"
           />
           <label class="form-label">Description</label>
           <textarea
@@ -24,7 +24,7 @@
             name="description"
             maxlength="1000"
             rows="5"
-            ngModel="{{dataVehicule.description}}"
+            ngModel="{{ dataVehicule.description }}"
           ></textarea>
           <div class="container1">
             <div class="container">
@@ -36,7 +36,7 @@
                 id="longueurInput"
                 placeholder="40,8m"
                 name="longueur"
-                ngModel="{{dataVehicule.longueur}}"
+                ngModel="{{ dataVehicule.longueur }}"
               />
               <label class="form-label">Type</label>
               <input
@@ -46,7 +46,7 @@
                 id="typeInput"
                 placeholder="Vaisseau"
                 name="type"
-                ngModel="{{dataVehicule.type}}"
+                ngModel="{{ dataVehicule.type }}"
               />
               <label class="form-label">Nombre max de membres d'équipage</label>
               <input
@@ -56,7 +56,7 @@
                 id="nbEquipageInput"
                 placeholder="8"
                 name="nbEquipage"
-                ngModel="{{dataVehicule.nbEquipage}}"
+                ngModel="{{ dataVehicule.nbEquipage }}"
               />
             </div>
             <div class="container">
@@ -68,7 +68,7 @@
                 id="vitesseInput"
                 placeholder="1050 km/h"
                 name="vitesse"
-                ngModel="{{dataVehicule.vitesse}}"
+                ngModel="{{ dataVehicule.vitesse }}"
               />
 
               <label class="form-label">Classe</label>
@@ -79,7 +79,7 @@
                 id="classeInput"
                 placeholder="Cargo YT-1300f"
                 name="classe"
-                ngModel="{{dataVehicule.classe}}"
+                ngModel="{{ dataVehicule.classe }}"
               />
               <label class="form-label">Moteur</label>
               <input
@@ -89,7 +89,7 @@
                 id="moteurInput"
                 placeholder="2 moteurs subluminiques SRB42 de Girodyne"
                 name="moteur"
-                ngModel="{{dataVehicule.moteur}}"
+                ngModel="{{ dataVehicule.moteur }}"
               />
             </div>
           </div>
@@ -102,7 +102,7 @@
             id="armesInput"
             placeholder="1 canon laser lourd, 2 quadruple canons laser, 2 tubes lance-missiles, 1 canon blaster"
             name="armes"
-            ngModel="{{dataVehicule.armes}}"
+            ngModel="{{ dataVehicule.armes }}"
           />
 
           <label class="form-label">URL de l'image d'illustration</label>
@@ -113,7 +113,7 @@
             id="imageInput"
             placeholder="https://..."
             name="image"
-            ngModel="{{dataVehicule.image}}"
+            ngModel="{{ dataVehicule.image }}"
           />
         </div>
         <div class="mb-3 form-check">
@@ -127,6 +127,40 @@
             >En cochant la case, je confirme les informations
             renseignées.</label
           >
+        </div>
+        <button type="submit" class="btn btn-warning">Valider</button>
+      </form>
+    </div>
+
+    <div class="mx-auto col-4" *ngIf="vehiculeId != 0">
+      <form
+        #formOrganisations="ngForm"
+        (ngSubmit)="submitOrga(formOrganisations.value)"
+      >
+        <div class="organisations mb-3">
+          <label class="form-label">Organisations affiliées</label>
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic checkbox toggle button group"
+          >
+            <div class="organisation" *ngFor="let organisation of organisations">
+              <input
+                type="checkbox"
+                class="btn-check"
+                id="{{ organisation.id }}"
+                autocomplete="off"
+                [name]="organisation.id.toString()"
+                ngModel
+                [value]="organisation.id"
+              />
+              <label
+                class="btn btn-outline-warning"
+                for="{{ organisation.id }}"
+                >{{ organisation.nom }}</label
+              >
+            </div>
+          </div>
         </div>
         <button type="submit" class="btn btn-warning">Valider</button>
       </form>

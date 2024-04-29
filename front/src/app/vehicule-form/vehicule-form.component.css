@@ -13,6 +13,23 @@ form {
     margin-top: 1%;
 }
 
-.container {
+.bloc {
     overflow: auto;
+    display: flex;
+}
+
+.btn-group {
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+.organisations {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.organisation {
+    /* flex: auto; */
+    margin: 1%;
 }

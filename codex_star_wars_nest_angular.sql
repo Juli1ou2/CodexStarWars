@@ -274,7 +274,7 @@ VALUES
     (
         NULL,
         'Une espèce de criminels notoirement connue pour son contrôle du crime organisé et du commerce illégal à travers la galaxie.',
-        'https://liquipedia.net/commons/images/f/f0/Hutt_Cartel_Light_Logo.png',
+        'https://i.pinimg.com/736x/ae/fc/65/aefc651cf90c1e03a7f98aae1e98d564.jpg',
         'Hutts'
     ),
     (

@@ -2,6 +2,8 @@ import { Component, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { VehiculesService } from '../services/vehicules.service';
 import { Vehicule } from '../interfaces/vehicule';
+import { Organisation } from '../interfaces/organisation';
+import { OrganisationsService } from '../services/organisations.service';
 
 @Component({
   selector: 'app-vehicule-form',
@@ -23,11 +25,14 @@ export class VehiculeFormComponent {
     nbEquipage: 0,
     image: '',
     type: '',
-    organisations: []
+    organisations: [],
   };
+  organisations: Organisation[] | undefined;
+  organisationsSelectionnees: number[] = [];
 
   constructor(
     private vehiculesService: VehiculesService,
+    private organisationsService: OrganisationsService,
     private activeRoute: ActivatedRoute
   ) {}
 
@@ -45,10 +50,16 @@ export class VehiculeFormComponent {
       this.titrePage = 'Ajouter';
     } else {
       this.titrePage = 'Modifier';
-      this.vehiculesService.getVehicule(this.vehiculeId).subscribe((vehicule) => {
-        this.dataVehicule = vehicule;
-      });
-      
+      this.vehiculesService
+        .getVehicule(this.vehiculeId)
+        .subscribe((vehicule) => {
+          this.dataVehicule = vehicule;
+        });
+      this.organisationsService
+        .getOrganisations()
+        .subscribe((organisations) => {
+          this.organisations = organisations;
+        });
     }
   }
 
@@ -61,5 +72,12 @@ export class VehiculeFormComponent {
     } else {
       this.vehiculesService.put(this.dataVehicule);
     }
+  }
+
+  submitOrga(data: any) {
+    const keysWithTrueValue = Object.keys(data)
+      .filter((key) => data[key] === true)
+      .map((key) => parseInt(key));
+    this.organisationsService.putOrganisationsToVehicule(this.vehiculeId, keysWithTrueValue);
   }
 }
