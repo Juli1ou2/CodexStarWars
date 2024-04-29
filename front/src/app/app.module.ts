@@ -16,6 +16,8 @@ import { VehiculesComponent } from './vehicules/vehicules.component';
 
 import { PersonnagesDetailsComponent } from './personnages-details/personnages-details.component';
 import { PersonnagesComponent } from './personnages/personnages.component';
+import { EspecesComponent } from './especes/especes.component';
+import { EspecesDetailsComponent } from './especes-details/especes-details.component';
 
 @NgModule({
   declarations: [
@@ -28,9 +30,10 @@ import { PersonnagesComponent } from './personnages/personnages.component';
     BorderContainerComponent,
     VehiculesDetailsComponent,
     ListeOrganisationsComponent,
-
     PersonnagesComponent,
     PersonnagesDetailsComponent,
+    EspecesComponent,
+    EspecesDetailsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
