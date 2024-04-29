@@ -21,9 +21,9 @@ export class VehiculesController {
     return this.service.getVehicules();
   }
 
-  @Get('nom')
-  getAllByName(@Body() body: { nom: string }) {
-    return this.service.getVehiculesByName(body.nom);
+  @Get('nom/:nom')
+  getAllByName(@Param() params) {
+    return this.service.getVehiculesByName(params.nom);
   }
 
   @Get(':id')

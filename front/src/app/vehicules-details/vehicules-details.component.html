@@ -1,0 +1,61 @@
+<app-border-container [titre]="'Details'">
+  <div class="container1">
+    <div class="infos-principales">
+      <img
+        src="{{ vehiculeDetails.image }}"
+        height="300px"
+        alt="Illustration"
+      />
+      <h2>{{ vehiculeDetails.nom }}</h2>
+      <div class="infos">
+        <p>
+          Longueur :
+          <span class="important">{{ vehiculeDetails.longueur }}</span>
+        </p>
+        <p>
+          Vitesse : <span class="important">{{ vehiculeDetails.vitesse }}</span>
+        </p>
+        <p>
+          Classe : <span class="important">{{ vehiculeDetails.classe }}</span>
+        </p>
+        <p>
+          Moteur : <span class="important">{{ vehiculeDetails.moteur }}</span>
+        </p>
+        <p>
+          Armes : <span class="important">{{ vehiculeDetails.armes }}</span>
+        </p>
+        <p>
+          Nombre max de membres d'équipage :
+          <span class="important">{{ vehiculeDetails.nbEquipage }}</span>
+        </p>
+        <p>
+          Type : <span class="important">{{ vehiculeDetails.type }}</span>
+        </p>
+      </div>
+    </div>
+    <div class="description">
+      <h3>Description</h3>
+      <p>{{ vehiculeDetails.description }}</p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <app-liste-organisations
+      [organisations]="vehiculeDetails.organisations"
+    ></app-liste-organisations>
+    <div class="actions">
+      <a title="Modifier" routerLink="/vehicules/form/{{ vehiculeDetails.id }}"
+      ><img src="assets/boutons/edit.png" height="45px" alt="Bouton modifier"
+      /></a>
+      <a title="Supprimer" (click)="deleteVehicule()"
+      ><img
+      src="assets/boutons/delete.png"
+      height="45px"
+      alt="Bouton supprimer"
+      /></a>
+      <a title="Ajouter un nouvel élément" routerLink="/vehicules/form/0"
+        ><img src="assets/boutons/add.png" height="45px" alt="Bouton ajouter"
+      /></a>
+    </div>
+  </div>
+</app-border-container>
