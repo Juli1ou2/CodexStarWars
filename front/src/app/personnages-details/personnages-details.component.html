@@ -42,14 +42,13 @@
     </div>
   </div>
   <div class="container2">
-    <!-- <app-liste-especes
-      [especes]="personnageDetails.especes"
-    ></app-liste-espece> -->
     <div class="actions">
-      <a title="Ajouter"
+      <a title="Ajouter un nouvel élément" routerLink="/personnages/form/0"
         ><img src="assets/boutons/add.png" height="45px" alt="Bouton ajouter"
       /></a>
-      <a title="Modifier"
+      <a
+        title="Modifier"
+        routerLink="/personnages/form/{{ personnageDetails.id }}"
         ><img src="assets/boutons/edit.png" height="45px" alt="Bouton modifier"
       /></a>
       <a title="Supprimer" (click)="deletePersonnage()"

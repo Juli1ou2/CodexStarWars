@@ -8,6 +8,7 @@
 }
 
 .container2 {
+  justify-content: space-around;
   display: flex;
   margin: 1%;
   flex: 1;
@@ -53,7 +54,7 @@ app-liste-especes {
   margin-left: 1%;
   width: fit-content;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
 }
