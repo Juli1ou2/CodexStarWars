@@ -6,7 +6,8 @@
           <label class="form-label">Nom</label>
           <input
             type="text"
-            required
+            required="true"
+            ngNativeValidate
             class="form-control"
             id="nomInput"
             placeholder="Faucon Millenium"
@@ -17,7 +18,7 @@
           <label class="form-label">Description</label>
           <textarea
             class="form-control"
-            required
+            required="true"
             id="descriptionInput"
             placeholder="Le faucon Millenium était le vaisseau de Han Solo..."
             name="description"
@@ -30,7 +31,7 @@
               <label class="form-label">Longueur</label>
               <input
                 type="text"
-                required
+                required="true"
                 class="form-control"
                 id="longueurInput"
                 placeholder="40,8m"
@@ -40,7 +41,7 @@
               <label class="form-label">Type</label>
               <input
                 type="text"
-                required
+                required="true"
                 class="form-control"
                 id="typeInput"
                 placeholder="Vaisseau"
@@ -50,7 +51,7 @@
               <label class="form-label">Nombre max de membres d'équipage</label>
               <input
                 type="number"
-                required
+                required="true"
                 class="form-control"
                 id="nbEquipageInput"
                 placeholder="8"
@@ -62,7 +63,7 @@
               <label class="form-label">Vitesse</label>
               <input
                 type="text"
-                required
+                required="true"
                 class="form-control"
                 id="vitesseInput"
                 placeholder="1050 km/h"
@@ -73,7 +74,7 @@
               <label class="form-label">Classe</label>
               <input
                 type="text"
-                required
+                required="true"
                 class="form-control"
                 id="classeInput"
                 placeholder="Cargo YT-1300f"
@@ -83,7 +84,7 @@
               <label class="form-label">Moteur</label>
               <input
                 type="text"
-                required
+                required="true"
                 class="form-control"
                 id="moteurInput"
                 placeholder="2 moteurs subluminiques SRB42 de Girodyne"
@@ -96,7 +97,7 @@
           <label class="form-label">Armes</label>
           <input
             type="text"
-            required
+            required="true"
             class="form-control"
             id="armesInput"
             placeholder="1 canon laser lourd, 2 quadruple canons laser, 2 tubes lance-missiles, 1 canon blaster"
@@ -107,7 +108,7 @@
           <label class="form-label">URL de l'image d'illustration</label>
           <input
             type="text"
-            required
+            required="true"
             class="form-control"
             id="imageInput"
             placeholder="https://..."
@@ -118,7 +119,7 @@
         <div class="mb-3 form-check">
           <input
             type="checkbox"
-            required
+            required="true"
             class="form-check-input"
             id="exampleCheck1"
           />
@@ -130,25 +131,5 @@
         <button type="submit" class="btn btn-warning">Valider</button>
       </form>
     </div>
-  </div>
-
-  <input
-    type="text"
-    id="name"
-    name="name"
-    class="form-control"
-    required
-    minlength="4"
-    appForbiddenName="bobby"
-    [(ngModel)]="dataVehicule.nom"
-    #name="ngModel"
-  />
-
-  <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert">
-    <div *ngIf="name.errors?.['required']">Name is required.</div>
-    <div *ngIf="name.errors?.['minlength']">
-      Name must be at least 4 characters long.
-    </div>
-    <div *ngIf="name.errors?.['forbiddenName']">Name cannot be Bob.</div>
   </div>
 </app-border-container>
