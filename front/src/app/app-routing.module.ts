@@ -7,8 +7,6 @@ import { PersonnagesDetailsComponent } from './personnages-details/personnages-d
 import { PersonnagesComponent } from './personnages/personnages.component';
 import { VehiculesDetailsComponent } from './vehicules-details/vehicules-details.component';
 import { VehiculesComponent } from './vehicules/vehicules.component';
-import { EspecesComponent } from './especes/especes.component';
-import { EspecesDetailsComponent } from './especes-details/especes-details.component';
 import { VehiculeFormComponent } from './vehicule-form/vehicule-form.component';
 
 const routes: Routes = [
