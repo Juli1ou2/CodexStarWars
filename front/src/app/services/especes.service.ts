@@ -1,9 +1,9 @@
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Router } from '@angular/router';
-import { Observable } from 'rxjs';
 import { CONSTANTES } from '../constantes.enum';
+import { Observable } from 'rxjs';
 import { Espece } from '../interfaces/espece';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root',
@@ -20,7 +20,9 @@ export class EspecesService {
   }
 
   searchEspeces(nom: string): Observable<Espece[]> {
-    return this.http.get<Espece[]>(CONSTANTES.API_URL + 'especes/nom/' + nom);
+    return this.http.get<Espece[]>(
+      CONSTANTES.API_URL + 'especes/nom/' + nom
+    );
   }
 
   getEspece(id: string): Observable<Espece> {
@@ -28,16 +30,30 @@ export class EspecesService {
   }
 
   delete(id: number) {
-    this.http
-      .delete(CONSTANTES.API_URL + 'personnages/' + id.toString())
-      .subscribe(
-        () => {
-          alert('Personnage supprimé avec succès !');
-          this.router.navigate(['/personnages']);
-        },
-        (error) => {
-          alert('Erreur lors de la suppression du personnage : ' + error);
-        }
-      );
+    this.http.delete(CONSTANTES.API_URL + 'especes/' + id.toString()).subscribe(
+      () => {
+        alert('Espèce supprimé avec succès !');
+        this.router.navigate(['/especes']);
+      },
+      (error) => {
+        alert('Erreur lors de la suppression de l\'espèce : ' + error);
+      }
+    );
+  }
+
+  post(espece: Espece) {
+    this.http.post(CONSTANTES.API_URL + 'especes', espece, {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+    });
+  }
+  
+  put(espece: Espece) {
+    this.http.post(CONSTANTES.API_URL + 'especes', espece, {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+    });
   }
 }

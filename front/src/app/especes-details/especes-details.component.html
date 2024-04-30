@@ -34,5 +34,31 @@
       <h3>Description</h3>
       <p>{{ especeDetails.description }}</p>
     </div>
-  </div> 
+  </div>
+  
+  <div class="container2">
+    <app-liste-personnages
+      [personnages]="especeDetails.personnages"
+    ></app-liste-personnages>
+    <div class="actions">
+      <a title="Ajouter"
+        ><img
+          src="assets/boutons/add.png"
+          height="45px"
+          alt="Bouton ajouter"
+      /></a>
+      <a title="Modifier"
+        ><img
+          src="assets/boutons/edit.png"
+          height="45px"
+          alt="Bouton modifier"
+      /></a>
+      <a title="Supprimer" (click)="deleteEspece()"
+        ><img
+          src="assets/boutons/delete.png"
+          height="45px"
+          alt="Bouton supprimer"
+      /></a>
+    </div>
+  </div>
 </app-border-container>

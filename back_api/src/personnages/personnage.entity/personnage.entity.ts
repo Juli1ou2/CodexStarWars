@@ -34,5 +34,5 @@ export class Personnage {
   genre: string;
 
   @ManyToOne(() => Espece, (espece) => espece.personnages)
-  espece: Espece;
+  especes: Espece;
 }
