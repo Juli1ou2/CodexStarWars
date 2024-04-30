@@ -15,7 +15,7 @@
     />
     <button class="btn btn-outline-warning" type="submit">Search</button>
     <a title="Ajouter" routerLink="/vehicules/form/0"
-      ><img src="assets/boutons/add.png" height="45px" alt="Bouton ajouter"
+      ><img src="assets/boutons/add.png" height="45px" alt="Bouton ajouter" *ngIf="isModerateur || isAdministrateur"
     /></a>
   </form>
 

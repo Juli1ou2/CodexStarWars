@@ -10,8 +10,13 @@ import { Observable } from 'rxjs';
 })
 export class VehiculesComponent {
   vehicules: Vehicule[] = [];
+  isModerateur: boolean | undefined;
+  isAdministrateur: boolean |undefined;
 
-  constructor(private vehiculesService: VehiculesService) {}
+  constructor(private vehiculesService: VehiculesService) {
+    this.isModerateur = localStorage.getItem('userRole') === 'Moderateur';
+    this.isAdministrateur = localStorage.getItem('userRole') === 'Administrateur';
+  }
 
   submit(nom: string) {
     let vehiculesData: Observable<Vehicule[]>;

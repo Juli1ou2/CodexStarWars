@@ -24,8 +24,13 @@ export class VehiculesDetailsComponent {
     type: '____',
     organisations: []
   };
+  isModerateur: boolean | undefined;
+  isAdministrateur: boolean |undefined;
 
-  constructor(private vehiculesService : VehiculesService, private activeRoute: ActivatedRoute) { }
+  constructor(private vehiculesService : VehiculesService, private activeRoute: ActivatedRoute) {
+    this.isModerateur = localStorage.getItem('userRole') === 'Moderateur';
+    this.isAdministrateur = localStorage.getItem('userRole') === 'Administrateur';
+  }
 
   ngOnInit() {
     this.vehiculeId = this.activeRoute.snapshot.paramMap.get('id'); // fait référence à l'id dans app-routing.module.ts

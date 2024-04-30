@@ -1,0 +1,31 @@
+<app-border-container [titre]="'Connexion'">
+    <div class="bloc">
+        <div class="mx-auto col-6">
+          <form #formUser="ngForm" (ngSubmit)="submit(formUser.value)">
+            <div class="mb-3">
+              <label class="form-label">E-mail</label>
+              <input
+                type="email"
+                required
+                class="form-control"
+                id="emailInput"
+                placeholder="E-mail"
+                name="username"
+                ngModel
+              />
+              <label class="form-label">Mot de passe</label>
+              <input
+                type="password"
+                required
+                class="form-control"
+                id="passwordInput"
+                placeholder="Mot de passe"
+                name="password"
+                ngModel
+              />
+            </div>
+            <button type="submit" class="btn btn-warning">Valider</button>
+          </form>
+        </div>
+      </div>    
+</app-border-container>

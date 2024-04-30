@@ -10,6 +10,7 @@ import { VehiculesDetailsComponent } from './vehicules-details/vehicules-details
 import { VehiculesComponent } from './vehicules/vehicules.component';
 import { VehiculeFormComponent } from './vehicule-form/vehicule-form.component';
 import { EspeceFormComponent } from './espece-form/espece-form.component';
+import { ProfilComponent } from './profil/profil.component';
 
 const routes: Routes = [
   { path: 'vehicules', component: VehiculesComponent },
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'personnages/form/:id', component: PersonnageFormComponent },
   { path: 'especes/details/:id', component: EspecesDetailsComponent },
   { path: 'especes/form/:id', component: EspeceFormComponent },
+  { path: 'profil', component: ProfilComponent },
 ];
 
 @NgModule({
