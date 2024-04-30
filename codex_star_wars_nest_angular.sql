@@ -4,7 +4,7 @@ create database codex_star_wars_nest_angular;
 
 use codex_star_wars_nest_angular;
 
--- lancer NEST (npm start)
+
 
 
 -- VEHICULES
@@ -137,7 +137,7 @@ VALUES
         'Inconnu',
         'Multiples',
         4,
-        'https://lh3.googleusercontent.com/proxy/qeglNErFKDoA7_L0YQwfnXDCcuqvvOFXS5RXEtAPB2l88klvINUivJuLa7TJEqkYdZhaZFQh7oWSywWXaBvRkiR4HX_AAHqGSg7im7pq',
+        'https://img1.starwars-holonet.com/holonet/dictionnaire/photos/ship_cimeterre_2.jpg',
         'vaisseau'
     ),
     (
@@ -274,7 +274,7 @@ VALUES
     (
         NULL,
         'Une espèce de criminels notoirement connue pour son contrôle du crime organisé et du commerce illégal à travers la galaxie.',
-        'https://liquipedia.net/commons/images/f/f0/Hutt_Cartel_Light_Logo.png',
+        'https://i.pinimg.com/736x/ae/fc/65/aefc651cf90c1e03a7f98aae1e98d564.jpg',
         'Hutts'
     ),
     (
@@ -941,20 +941,20 @@ VALUES
         'Stewjon',
         '0 av B.Y',
         'Étoile de la Mort',
-        'https://static.wikia.nocookie.net/frstarwars/images/c/c5/Obi_Wan_Kenobi.jpg/revision/latest?cb=20150207143827',
+        'https://www.lepoint.fr/images/2018/06/25/15498010lpw-15498043-article-jpg_5354016_1250x625.jpg',
         'Masculin',
         15
     ),
     (
         NULL,
-        'Padmé Amidala',
+        'Padme Amidala',
         'Padmé Amidala de Naboo, née Padmé Naberrie, connue sous les titres successifs de Reine Amidala de Naboo puis de Sénatrice Padmé Amidala de Naboo, est la fille de Ruwee et Jobal Naberrie, et la sœur cadette de Sola Naberrie. Elle devint au cours de sa vie l''épouse secrète du chevalier Jedi Anakin Skywalker et la mère de Luke et de Leia. Elle perdit la vie à la suite de son accouchement.',
         'Aucun',
         '46 av B.Y',
         'Naboo',
         '19 av B.Y',
         'Polis Massa',
-        'https://static.wikia.nocookie.net/frstarwars/images/3/3f/Padm%C3%A9_Amidala.jpg/revision/latest?cb=20150701092402',
+        'https://static1.srcdn.com/wordpress/wp-content/uploads/2023/05/natalie-portman-as-padm-amidala-in-star-wars-attack-of-the-clones.jpg',
         'Féminin',
         15
     ),
@@ -967,7 +967,7 @@ VALUES
         'Coruscant',
         '32 av B.Y',
         'Naboo',
-        'https://static.wikia.nocookie.net/frstarwars/images/f/f6/Qui-Gon_Jinn_Headshot_TPM.jpg/revision/latest?cb=20180501094345',
+        'https://img1.starwars-holonet.com/holonet/dictionnaire/photos/perso_jinn_quigon_1.jpg',
         'Masculin',
         15
     ),
@@ -980,7 +980,7 @@ VALUES
         'Kiffar',
         'Aucune',
         'Aucun',
-        'https://static.wikia.nocookie.net/frstarwars/images/d/d4/Quinlan_Vos_Teth.png/revision/latest?cb=20160523121323',
+        'https://oyster.ignimgs.com/wordpress/stg.ign.com/2017/03/quinlan-vos-720x404.jpg',
         'Masculin',
         21
     ),
@@ -993,7 +993,7 @@ VALUES
         'Naboo',
         '4 ap B.Y',
         'Étoile de la Mort II',
-        'https://static.wikia.nocookie.net/frstarwars/images/e/e2/Palpatine-CEUEEd.png/revision/latest?cb=20220511160240',
+        'https://wegotthiscovered.com/wp-content/uploads/2022/01/Palpatine_Survival.jpg',
         'Masculin',
         15
     ),
@@ -1006,7 +1006,7 @@ VALUES
         'Tatooine',
         '22 av B.Y',
         'Tatooine',
-        'https://static.wikia.nocookie.net/frstarwars/images/4/45/Shmi.png/revision/latest?cb=20221009095703',
+        'https://lumiere-a.akamaihd.net/v1/images/databank_shmiskywalkerlars_01_169_7449f0a8.jpeg?region=0%2C49%2C1560%2C780',
         'Féminin',
         15
     ),
@@ -1019,7 +1019,7 @@ VALUES
         'Inconnu',
         '32 av B.Y',
         'Coruscant',
-        'https://static.wikia.nocookie.net/frstarwars/images/7/7f/Yaddle-SWCT.png/revision/latest?cb=20230802190735',
+        'https://static1.moviewebimages.com/wordpress/wp-content/uploads/2022/10/Tales-of-the-Jedi-2.jpg',
         'Féminin',
         19
     ),
@@ -1032,7 +1032,7 @@ VALUES
         'Inconnu',
         '4 ap B.Y',
         'Dagobah',
-        'https://static.wikia.nocookie.net/frstarwars/images/5/5f/Yoda.png/revision/latest?cb=20161009183018',
+        'https://i-mom.unimedias.fr/2020/09/16/serie_yoda_disney-_1_1.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&w=680',
         'Masculin',
         19
     ),
@@ -1045,7 +1045,7 @@ VALUES
         'Tatooine',
         'Aucune',
         'Aucun',
-        'https://static.wikia.nocookie.net/frstarwars/images/3/35/C-3PO.png/revision/latest?cb=20161110201048',
+        'https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=176%2C0%2C951%2C536',
         'Masculin',
         20
     ),
@@ -1058,7 +1058,7 @@ VALUES
         'Dathomir',
         '2 av B.Y',
         'Tatooine',
-        'https://static.wikia.nocookie.net/frstarwars/images/8/89/MaulHS_SWI185.png/revision/latest?cb=20201205193750',
+        'https://www.radiofrance.fr/s3/cruiser-production/2019/12/b0f18775-627b-4fa0-810d-8aebd1ba7edf/870x489_dark_maul_star_wars.jpg',
         'Masculin',
         6
     ),
@@ -1071,7 +1071,7 @@ VALUES
         'Nal Hutta',
         '4 ap B.Y',
         'Tatooine',
-        'https://static.wikia.nocookie.net/frstarwars/images/3/39/Jabba_le_Hutt.png/revision/latest?cb=20170818180549',
+        'https://i.pinimg.com/736x/f8/50/01/f850016f7698afa8894bcdd4c7bb369b.jpg',
         'Masculin',
         14
     ),
@@ -1084,7 +1084,7 @@ VALUES
         'Naboo',
         'Aucune',
         'Aucun',
-        'https://static.wikia.nocookie.net/frstarwars/images/9/9d/Jar_Jar_Binks.jpg/revision/latest?cb=20160325193844',
+        'https://i.pinimg.com/736x/f8/50/01/f850016f7698afa8894bcdd4c7bb369b.jpg',
         'Masculin',
         16
     ),
@@ -1097,7 +1097,7 @@ VALUES
         'Tatooine',
         '4 ap B.Y',
         'Étoile de la Mort II',
-        'https://static.wikia.nocookie.net/frstarwars/images/8/8e/Anakin_Skywalker.png/revision/latest?cb=20160426114514',
+        'https://i.guim.co.uk/img/media/db92d0f5c8eb85f2b6f7b456d76313b9518f61c3/0_595_2086_1250/master/2086.jpg?width=1200&quality=85&auto=format&fit=max&s=cd12a2ee29e5b1caf836a543cd7ea53d',
         'Masculin',
         15
     ),
@@ -1110,7 +1110,7 @@ VALUES
         'Haruun Kal',
         '19 av B.Y',
         'Coruscant',
-        'https://static.wikia.nocookie.net/frstarwars/images/e/e8/Mace_Windu_WoSW.png/revision/latest?cb=20220916100712',
+        'https://huffpost-focus.sirius.press/2022/07/23/77/0/1504/846/1820/1023/75/0/c63c6de_1658608055834-5c92d2e82300003000e891f7.jpeg',
         'Masculin',
         15
     ),
@@ -1123,7 +1123,7 @@ VALUES
         'Neimoidia',
         '19 av B.Y',
         'Mustafar',
-        'https://static.wikia.nocookie.net/frstarwars/images/1/1f/Nute_Gunray.png/revision/latest?cb=20170616150740',
+        'https://img1.starwars-holonet.com/holonet/dictionnaire/photos/perso_gunray_nute_1.jpg',
         'Masculin',
         11
     );

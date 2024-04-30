@@ -8,11 +8,15 @@
 }
 
 .container2 {
+  justify-content: space-around;
   display: flex;
   margin: 1%;
   flex: 1;
 }
-
+app-liste-especes {
+  flex: auto;
+  margin-right: 1%;
+}
 .infos-principales {
   overflow: auto;
   flex: 2;
@@ -50,7 +54,7 @@
   margin-left: 1%;
   width: fit-content;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
 }
