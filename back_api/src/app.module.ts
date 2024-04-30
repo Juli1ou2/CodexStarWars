@@ -7,6 +7,8 @@ import { OrganisationsModule } from './organisations/organisations.module';
 import { EspecesModule } from './especes/especes.module';
 import { AstresModule } from './astres/astres.module';
 import { PersonnagesModule } from './personnages/personnages.module';
+import { AuthModule } from './auth/auth.module';
+import { UsersModule } from './user/user.module';
 
 @Module({
   imports: [
@@ -25,6 +27,8 @@ import { PersonnagesModule } from './personnages/personnages.module';
     EspecesModule,
     AstresModule,
     PersonnagesModule,
+    AuthModule,
+    UsersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
