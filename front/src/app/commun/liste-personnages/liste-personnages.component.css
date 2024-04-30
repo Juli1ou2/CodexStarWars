@@ -1,0 +1,43 @@
+.personnages {
+  overflow: auto;
+  border-radius: 20px;
+  border: solid 3px #ead51eff;
+  padding: 1%;
+}
+
+.liste-personnages {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.personnage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3%;
+}
+
+.personnage img {
+  background-color: #d8d8c3ff;
+  border-radius: 10px;
+  border: solid 2px rgba(255, 255, 255, 0);
+  margin-bottom: 5%;
+}
+
+p {
+  font-family: "AnonymousPro";
+  margin-bottom: 0%;
+  color: #d8d8c3ff;
+  text-transform: uppercase;
+  font-size: large;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h3 {
+  font-family: "DistantGalaxy";
+  font-size: xx-large;
+  color: #d8d8c3ff;
+  margin-bottom: 1%;
+}

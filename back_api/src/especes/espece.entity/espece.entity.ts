@@ -4,7 +4,7 @@ import {
   Column,
   Entity,
   ManyToMany,
-  OneToMany,
+  JoinTable,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 
@@ -40,10 +40,10 @@ export class Espece {
   @Column('text')
   image: string;
 
-  //Espece récupère la clé de Personnage.
   @ManyToMany(() => Astre, (astre) => astre.especes)
   astres: Astre[];
 
-  @OneToMany(() => Personnage, (personnage) => personnage.espece)
-  personnages: Personnage[];
+  @ManyToMany(() => Personnage, (personnage) => personnage.especes, { cascade: true })
+  @JoinTable()
+  personnages: Personnage[]
 }

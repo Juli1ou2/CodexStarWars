@@ -1,0 +1,9 @@
+<div class="personnages">
+  <h3>Personnages</h3>
+  <div class="liste-personnages">
+    <div class="personnage" *ngFor="let personnage of personnages">
+      <img src="{{ personnage.image }}" height="90px" alt="Illustration" />
+      <p>{{ personnage.nom }}</p>
+    </div>
+  </div>
+</div>

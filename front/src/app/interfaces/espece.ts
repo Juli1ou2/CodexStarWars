@@ -1,3 +1,5 @@
+import { Personnage } from "./personnage";
+
 export interface Espece {
   id: number;
   nom: string;
@@ -9,4 +11,5 @@ export interface Espece {
   habitat: string;
   langage: string;
   image: string;
+  personnages: Personnage[];
 }

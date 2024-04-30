@@ -1,13 +1,14 @@
 import { Module } from '@nestjs/common';
-import { EspecesService } from './especes.service';
 import { EspecesController } from './especes.controller';
-import { TypeOrmModule } from '@nestjs/typeorm';
+import { EspecesService } from './especes.service';
 import { Espece } from './espece.entity/espece.entity';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { PersonnagesModule } from 'src/personnages/personnages.module';
+import { PersonnagesService } from 'src/personnages/personnages.service';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Espece])],
-  providers: [EspecesService],
+  imports: [TypeOrmModule.forFeature([Espece]), PersonnagesModule],
   controllers: [EspecesController],
-  exports: [EspecesService]
+  providers: [EspecesService]
 })
 export class EspecesModule {}

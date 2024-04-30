@@ -1,0 +1,158 @@
+<app-border-container [titre]="titrePage">
+  <div class="bloc">
+    <div class="mx-auto col-6">
+      <form #formEspece="ngForm" (ngSubmit)="submit(formEspece.value)">
+        <div class="mb-3">
+          <label class="form-label">Nom</label>
+          <input
+            type="text"
+            required="true"
+            ngNativeValidate
+            class="form-control"
+            id="nomInput"
+            placeholder="Race des Yodas"
+            name="nom"
+            autofocus
+            ngModel="{{ dataEspece.nom }}"
+          />
+          <label class="form-label">Description</label>
+          <textarea
+            class="form-control"
+            required="true"
+            id="descriptionInput"
+            placeholder="La race des Yodas est une race qui..."
+            name="description"
+            maxlength="1000"
+            rows="5"
+            ngModel="{{ dataEspece.description }}"
+          ></textarea>
+          <div class="container1">
+            <div class="container">
+              <label class="form-label">Classification</label>
+              <input
+                type="text"
+                required="true"
+                class="form-control"
+                id="classification"
+                placeholder="Classification"
+                name="classification"
+                ngModel="{{ dataEspece.classification }}"
+              />
+              <label class="form-label">Taille</label>
+              <input
+                type="text"
+                required="true"
+                class="form-control"
+                id="taille"
+                placeholder="1m85"
+                name="taille"
+                ngModel="{{ dataEspece.taille }}"
+              />
+              <label class="form-label">Couleurs du corps</label>
+              <input
+                type="number"
+                required="true"
+                class="form-control"
+                id="couleurCorps"
+                placeholder="Brun"
+                name="couleurCorps"
+                ngModel="{{ dataEspece.couleurCorps }}"
+              />
+            </div>
+            <div class="container">
+              <label class="form-label">Couleurs des poils</label>
+              <input
+                type="text"
+                required="true"
+                class="form-control"
+                id="couleurPoils"
+                placeholder="Noir"
+                name="couleurPoils"
+                ngModel="{{ dataEspece.couleurPoils }}"
+              />
+
+              <label class="form-label">Habitat</label>
+              <input
+                type="text"
+                required="true"
+                class="form-control"
+                id="habitat"
+                placeholder="Désertique"
+                name="habitat"
+                ngModel="{{ dataEspece.habitat }}"
+              />
+              <label class="form-label">Langage</label>
+              <input
+                type="text"
+                required="true"
+                class="form-control"
+                id="langage"
+                placeholder="Tusken"
+                name="langage"
+                ngModel="{{ dataEspece.langage }}"
+              />
+            </div>
+          </div>
+
+          <label class="form-label">URL de l'image d'illustration</label>
+          <input
+            type="text"
+            required="true"
+            class="form-control"
+            id="imageInput"
+            placeholder="https://..."
+            name="image"
+            ngModel="{{ dataEspece.image }}"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input
+            type="checkbox"
+            required="true"
+            class="form-check-input"
+            id="exampleCheck1"
+          />
+          <label class="form-check-label" for="exampleCheck1"
+            >En cochant la case, je confirme les informations
+            renseignées.</label
+          >
+        </div>
+        <button type="submit" class="btn btn-warning">Valider</button>
+      </form>
+    </div>
+
+    <div class="mx-auto col-4" *ngIf="especeId != 0">
+      <form
+        #formPersonnages="ngForm"
+        (ngSubmit)="submitOrga(formPersonnages.value)"
+      >
+        <div class="personnages mb-3">
+          <label class="form-label">Personnages affiliées</label>
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic checkbox toggle button group"
+          >
+            <div class="personnage" *ngFor="let personnage of personnages">
+              <input
+                type="checkbox"
+                class="btn-check"
+                id="{{ personnage.id }}"
+                autocomplete="off"
+                [name]="personnage.id.toString()"
+                ngModel
+                [value]="personnage.id"
+              />
+              <label
+                class="btn btn-outline-warning"
+                for="{{ personnage.id }}"
+                >{{ personnage.nom }}</label
+              >
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-warning">Valider</button>
+      </form>
+    </div>
+  </div>
+</app-border-container>
