@@ -137,7 +137,7 @@ VALUES
         'Inconnu',
         'Multiples',
         4,
-        'https://lh3.googleusercontent.com/proxy/qeglNErFKDoA7_L0YQwfnXDCcuqvvOFXS5RXEtAPB2l88klvINUivJuLa7TJEqkYdZhaZFQh7oWSywWXaBvRkiR4HX_AAHqGSg7im7pq',
+        'https://img1.starwars-holonet.com/holonet/dictionnaire/photos/ship_cimeterre_2.jpg',
         'vaisseau'
     ),
     (
@@ -274,7 +274,7 @@ VALUES
     (
         NULL,
         'Une espèce de criminels notoirement connue pour son contrôle du crime organisé et du commerce illégal à travers la galaxie.',
-        'https://liquipedia.net/commons/images/f/f0/Hutt_Cartel_Light_Logo.png',
+        'https://i.pinimg.com/736x/ae/fc/65/aefc651cf90c1e03a7f98aae1e98d564.jpg',
         'Hutts'
     ),
     (
@@ -947,7 +947,7 @@ VALUES
     ),
     (
         NULL,
-        'Padmé Amidala',
+        'Padme Amidala',
         'Padmé Amidala de Naboo, née Padmé Naberrie, connue sous les titres successifs de Reine Amidala de Naboo puis de Sénatrice Padmé Amidala de Naboo, est la fille de Ruwee et Jobal Naberrie, et la sœur cadette de Sola Naberrie. Elle devint au cours de sa vie l''épouse secrète du chevalier Jedi Anakin Skywalker et la mère de Luke et de Leia. Elle perdit la vie à la suite de son accouchement.',
         'Aucun',
         '46 av B.Y',
