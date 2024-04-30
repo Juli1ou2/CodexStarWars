@@ -21,6 +21,7 @@ export class EspecesDetailsComponent {
     habitat: '',
     langage: '',
     image: '',
+    personnages: []
   };
 
   constructor(private especesService : EspecesService, private activeRoute: ActivatedRoute) { }
@@ -30,5 +31,11 @@ export class EspecesDetailsComponent {
     this.especesService.getEspece(this.especeId).subscribe((espece) => {
       this.especeDetails = espece;
     });
+  }
+
+  deleteEspece(): void {
+    if (window.confirm('⚠ Êtes-vous sûr de vouloir supprimer cet élément ?')) {
+      this.especesService.delete(this.especeDetails.id);
+    }
   }
 }
