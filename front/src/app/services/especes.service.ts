@@ -25,7 +25,7 @@ export class EspecesService {
     );
   }
 
-  getEspece(id: string): Observable<Espece> {
+  getEspece(id: number): Observable<Espece> {
     return this.http.get<Espece>(CONSTANTES.API_URL + 'especes/' + id);
   }
 

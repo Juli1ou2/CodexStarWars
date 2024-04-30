@@ -76,4 +76,22 @@ export class PersonnagesService {
         },
       });
   }
+
+  putPersonnagesToEspece(idEspece: number, listePersonnagesId: number[]) {
+    this.http
+      .put(
+        CONSTANTES.API_URL + 'especes/' + idEspece + '/personnages',
+        { personnages: listePersonnagesId },
+        this.httpOptions
+      )
+      .subscribe({
+        next: () => {
+          alert('Personnages mise à jour avec succès !');
+    
+        }, error: (error) => {
+          alert('Erreur lors de la modification des organisations : ' + error);
+          },
+      });
+  }
+
 }

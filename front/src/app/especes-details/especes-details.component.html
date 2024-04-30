@@ -41,23 +41,17 @@
       [personnages]="especeDetails.personnages"
     ></app-liste-personnages>
     <div class="actions">
-      <a title="Ajouter"
-        ><img
-          src="assets/boutons/add.png"
-          height="45px"
-          alt="Bouton ajouter"
-      /></a>
-      <a title="Modifier"
-        ><img
-          src="assets/boutons/edit.png"
-          height="45px"
-          alt="Bouton modifier"
+      <a title="Modifier" routerLink="/especes/form/{{ especeDetails.id }}"
+      ><img src="assets/boutons/edit.png" height="45px" alt="Bouton modifier"
       /></a>
       <a title="Supprimer" (click)="deleteEspece()"
-        ><img
-          src="assets/boutons/delete.png"
-          height="45px"
-          alt="Bouton supprimer"
+      ><img
+      src="assets/boutons/delete.png"
+      height="45px"
+      alt="Bouton supprimer"
+      /></a>
+      <a title="Ajouter un nouvel élément" routerLink="/especes/form/0"
+        ><img src="assets/boutons/add.png" height="45px" alt="Bouton ajouter"
       /></a>
     </div>
   </div>
