@@ -1,0 +1,124 @@
+<app-border-container [titre]="titrePage">
+  <div class="bloc">
+    <div class="mx-auto col-6">
+      <form #formPersonnage="ngForm" (ngSubmit)="submit(formPersonnage.value)">
+        <div class="mb-3">
+          <label class="form-label">Nom</label>
+          <input
+            type="text"
+            required="true"
+            ngNativeValidate
+            class="form-control"
+            id="nomInput"
+            placeholder="Faucon Millenium"
+            name="nom"
+            autofocus
+            ngModel="{{ dataPersonnage.nom }}"
+          />
+          <label class="form-label">Description</label>
+          <textarea
+            class="form-control"
+            required="true"
+            id="descriptionInput"
+            placeholder="Le faucon Millenium était le vaisseau de Han Solo..."
+            name="description"
+            maxlength="1000"
+            rows="5"
+            ngModel="{{ dataPersonnage.description }}"
+          ></textarea>
+          <div class="container1">
+            <div class="container">
+              <label class="form-label">Alias</label>
+              <input
+                type="text"
+                required="true"
+                class="form-control"
+                id="longueurInput"
+                placeholder="40,8m"
+                name="longueur"
+                ngModel="{{ dataPersonnage.alias }}"
+              />
+              <label class="form-label">Date de naissance</label>
+              <input
+                type="text"
+                required="true"
+                class="form-control"
+                id="typeInput"
+                placeholder="Vaisseau"
+                name="type"
+                ngModel="{{ dataPersonnage.date_de_naissance }}"
+              />
+              <label class="form-label">Lieu de naissance</label>
+              <input
+                type="number"
+                required="true"
+                class="form-control"
+                id="nbEquipageInput"
+                placeholder="8"
+                name="nbEquipage"
+                ngModel="{{ dataPersonnage.lieu_de_naissance }}"
+              />
+            </div>
+            <div class="container">
+              <label class="form-label">Date de mort</label>
+              <input
+                type="text"
+                required="true"
+                class="form-control"
+                id="vitesseInput"
+                placeholder="1050 km/h"
+                name="vitesse"
+                ngModel="{{ dataPersonnage.date_de_mort }}"
+              />
+
+              <label class="form-label">Lieu de mort</label>
+              <input
+                type="text"
+                required="true"
+                class="form-control"
+                id="classeInput"
+                placeholder="Cargo YT-1300f"
+                name="classe"
+                ngModel="{{ dataPersonnage.lieu_de_mort }}"
+              />
+              <label class="form-label">Genre</label>
+              <input
+                type="text"
+                required="true"
+                class="form-control"
+                id="moteurInput"
+                placeholder="2 moteurs subluminiques SRB42 de Girodyne"
+                name="moteur"
+                ngModel="{{ dataPersonnage.genre }}"
+              />
+            </div>
+          </div>
+
+          <label class="form-label">URL de l'image d'illustration</label>
+          <input
+            type="text"
+            required="true"
+            class="form-control"
+            id="imageInput"
+            placeholder="https://..."
+            name="image"
+            ngModel="{{ dataPersonnage.image }}"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input
+            type="checkbox"
+            required="true"
+            class="form-check-input"
+            id="exampleCheck1"
+          />
+          <label class="form-check-label" for="exampleCheck1"
+            >En cochant la case, je confirme les informations
+            renseignées.</label
+          >
+        </div>
+        <button type="submit" class="btn btn-warning">Valider</button>
+      </form>
+    </div>
+  </div>
+</app-border-container>

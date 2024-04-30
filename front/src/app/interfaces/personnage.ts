@@ -1,3 +1,5 @@
+//import { Espece } from './espece';
+
 export interface Personnage {
   id: number;
   nom: string;
@@ -9,4 +11,5 @@ export interface Personnage {
   lieu_de_mort: string;
   image: string;
   genre: string;
+  //especes: Espece[];
 }
