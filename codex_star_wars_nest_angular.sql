@@ -5,8 +5,6 @@ create database codex_star_wars_nest_angular;
 use codex_star_wars_nest_angular;
 
 
-
-
 -- VEHICULES
 INSERT INTO
     `vehicule` (
@@ -929,7 +927,7 @@ INSERT INTO
         `lieu_de_mort`,
         `image`,
         `genre`,
-        `especeId`
+        `especesId`
     )
 VALUES
     (
@@ -1156,3 +1154,9 @@ VALUES
     (8, 4),
     (5, 7),
     (6, 7);
+
+
+-- USERS
+INSERT INTO `user` (`id`, `firstname`, `lastname`, `email`, `password`, `role`) VALUES (NULL, 'David', 'WARS', 'd@cfa-insta.fr', 'password123', 'Moderateur');
+INSERT INTO `user` (`id`, `firstname`, `lastname`, `email`, `password`, `role`) VALUES (NULL, 'Garance', 'WARSE', 'g@cfa-insta.fr', 'password123', 'Moderateur');
+INSERT INTO `user` (`id`, `firstname`, `lastname`, `email`, `password`, `role`) VALUES (NULL, 'Julien', 'WARZ', 'j@cfa-insta.fr', 'password123', 'Administrateur');
