@@ -16,9 +16,15 @@ export class ProfilComponent {
     username: '',
     password: '',
   };
+  users: User[] = [];
   user : User | undefined;
+  isModerateur: boolean | undefined;
+  isAdministrateur: boolean |undefined;
 
-  constructor(private profilService: ProfilService, private router : Router){}
+  constructor(private profilService: ProfilService, private router : Router){
+    this.isModerateur = localStorage.getItem('userRole') === 'Moderateur';
+    this.isAdministrateur = localStorage.getItem('userRole') === 'Administrateur';
+  }
 
   submit(profilData: Profil) {
     this.profilData = profilData;
@@ -42,5 +48,24 @@ export class ProfilComponent {
       }
     });
   }
-  
+  getUsers() {
+    let userData: Observable<User[]>;
+    userData = this.profilService.getUsers();
+
+    userData.subscribe((res) => {
+      this.users = res;
+    });
+    console.log(this.users);
+  }
+  ngOnInit(){
+    if(this.isAdministrateur){
+      this.getUsers();
+    }
+  }
+  deleteUser(idUser : number): void {
+    if (window.confirm('⚠ Êtes-vous sûr de vouloir supprimer cet élément ?')) {
+      this.profilService.delete(idUser);
+      window.location.reload();
+    }
+  }
 }

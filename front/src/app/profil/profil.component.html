@@ -1,7 +1,7 @@
-<app-border-container [titre]="'Connexion'">
+<app-border-container [titre]="isAdministrateur ? 'Profils' : 'Connexion'">
     <div class="bloc">
         <div class="mx-auto col-6">
-          <form #formUser="ngForm" (ngSubmit)="submit(formUser.value)">
+          <form #formUser="ngForm" (ngSubmit)="submit(formUser.value)" *ngIf="!isAdministrateur">
             <div class="mb-3">
               <label class="form-label">E-mail</label>
               <input
@@ -27,5 +27,32 @@
             <button type="submit" class="btn btn-warning">Valider</button>
           </form>
         </div>
-      </div>    
+      </div>
+
+      <table *ngIf="isAdministrateur" >
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Prénom</th>
+            <th>Nom</th>
+            <th>Email</th>
+            <th>Rôle</th>
+            <th>Opérations</th>
+          </tr>
+        </thead>
+        <tbody >
+          <tr *ngFor="let user of users">
+            <td>{{ user.id }}</td>
+            <td>{{ user.firstname }}</td>
+            <td>{{ user.lastname }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.role }}</td>
+            <td>
+                <a title="Supprimer" (click)="deleteUser(user.id)">
+                  <img src="assets/boutons/delete.png" height="45px" alt="Bouton supprimer" />
+                </a>
+              </td>
+          </tr>
+        </tbody>
+      </table>    
 </app-border-container>
