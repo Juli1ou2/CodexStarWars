@@ -17,13 +17,11 @@ export class UsersService {
         return await this.UsersRepository.findOneBy({id:_id})
     }
 
+    async getUserByEmail(email: string): Promise<User> {
+        return await this.UsersRepository.findOneBy({email:email});
+    }
+
     async createUser(user: User) {
-        if(user.password){
-            const password= user.password;
-            const saltOrRounds = 10;
-            const hash = await bcrypt.hash(password, saltOrRounds);
-            user.password= hash;
-        }
         return await this.UsersRepository.save(user)
     }
 

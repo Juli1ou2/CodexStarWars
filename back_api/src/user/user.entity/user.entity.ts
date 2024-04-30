@@ -17,4 +17,7 @@ export class User{
     @Column('text')
     password:string;
 
+    @Column({length : 40})
+    role:string;
+
 }

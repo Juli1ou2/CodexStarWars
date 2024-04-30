@@ -16,6 +16,10 @@ export class UsersController {
         return this.service.getUser(params.id);
 
     }
+    @Get('username/:username')
+    getByEmail(@Param() params) {
+        return this.service.getUserByEmail(params.email);
+    }
 
     @Post()
     create(@Body() User: User) {
