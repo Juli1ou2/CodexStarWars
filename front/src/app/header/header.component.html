@@ -3,8 +3,12 @@
     ><img src="assets/logos/star_wars_codex_logo.png" height="60px"
   /></a>
   <div class="connexion">
-    <a href="/connexion"
-      ><img src="assets/boutons/connexion.png" height="40px"
+    <a routerLink="/profil"
+    style="padding-right: 20px;"><img src="assets/boutons/connexion.png" height="40px"
     /></a>
+    <a (click)="logout()" *ngIf="session">
+      <img src="assets/boutons/logout.png" height="40px" />
+    </a>
   </div>
+  
 </div>

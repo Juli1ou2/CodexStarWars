@@ -43,7 +43,7 @@
     <app-liste-organisations
       [organisations]="vehiculeDetails.organisations"
     ></app-liste-organisations>
-    <div class="actions">
+    <div class="actions" *ngIf="isModerateur || isAdministrateur">
       <a title="Modifier" routerLink="/vehicules/form/{{ vehiculeDetails.id }}"
       ><img src="assets/boutons/edit.png" height="45px" alt="Bouton modifier"
       /></a>
