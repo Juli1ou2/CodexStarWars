@@ -35,7 +35,7 @@ export class ProfilService {
           }
         }),
         catchError((error) => {
-          alert('Erreur lors de la connexion : ' + error.message);
+          console.log('Erreur lors de la connexion : ' + error.message);
           return of(false); // Retourne un observable contenant "false" en cas d'erreur
         })
       );

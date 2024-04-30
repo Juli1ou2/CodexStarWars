@@ -33,8 +33,8 @@ export class ProfilComponent {
           localStorage.setItem('userRole', this.user.role);
           console.log("Connexion réussie ! valeur : "+localStorage.getItem('userRole'));
           alert("Connexion réussie ! Role : "+localStorage.getItem('userRole'));
-          
           window.location.reload();
+          this.router.navigate(['/accueil']);
         }
       } else {
         // Connexion échouée
