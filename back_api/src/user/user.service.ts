@@ -18,7 +18,7 @@ export class UsersService {
     }
 
     async getUserByEmail(email: string): Promise<User> {
-        return await this.UsersRepository.findOneBy({email:email});
+        return await this.UsersRepository.findOne({ where: { email: email } })
     }
 
     async createUser(user: User) {
@@ -26,12 +26,6 @@ export class UsersService {
     }
 
     async updateUser(user: User) {
-        if(user.password){
-            const password= user.password;
-            const saltOrRounds = 10;
-            const hash = await bcrypt.hash(password, saltOrRounds);
-            user.password= hash;
-        }
         return await this.UsersRepository.update(user.id, user);
     }
 

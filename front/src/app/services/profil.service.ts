@@ -43,4 +43,24 @@ export class ProfilService {
   getUser(username: string): Observable<User> {
     return this.http.get<User>(CONSTANTES.API_URL+'users/username/'+username.toString());
   }
+  getUsers(): Observable<User[]> {
+    return this.http.get<User[]>(CONSTANTES.API_URL + 'users', {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+    });
+  }
+  delete(id: number) {
+    this.http
+      .delete(CONSTANTES.API_URL + 'users/' + id.toString())
+      .subscribe({
+        next: () => {
+          alert('User supprimé avec succès !');
+          this.router.navigate(['/profil']);
+        },
+        error: (error) => {
+          alert('Erreur lors de la suppression de l\'User : ' + error);
+        },
+      });
+  }
 }
