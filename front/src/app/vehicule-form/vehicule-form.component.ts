@@ -54,6 +54,10 @@ export class VehiculeFormComponent {
         .getVehicule(this.vehiculeId)
         .subscribe((vehicule) => {
           this.dataVehicule = vehicule;
+          for (let orga of this.dataVehicule.organisations) {
+            console.log('orgaId : ' + orga.id);
+            this.organisationsSelectionnees.push(orga.id);
+          }
         });
       this.organisationsService
         .getOrganisations()
@@ -78,6 +82,13 @@ export class VehiculeFormComponent {
     const keysWithTrueValue = Object.keys(data)
       .filter((key) => data[key] === true)
       .map((key) => parseInt(key));
-    this.organisationsService.putOrganisationsToVehicule(this.vehiculeId, keysWithTrueValue);
+    this.organisationsService.putOrganisationsToVehicule(
+      this.vehiculeId,
+      keysWithTrueValue
+    );
+  }
+
+  checkVehiculeOrganisations(idOrga: number): boolean {
+    return this.organisationsSelectionnees.includes(idOrga) ? true : false;
   }
 }

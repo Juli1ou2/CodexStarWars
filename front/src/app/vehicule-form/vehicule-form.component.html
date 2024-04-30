@@ -149,10 +149,9 @@
                 type="checkbox"
                 class="btn-check"
                 id="{{ organisation.id }}"
-                autocomplete="off"
                 [name]="organisation.id.toString()"
-                ngModel
                 [value]="organisation.id"
+                [ngModel]="checkVehiculeOrganisations(organisation.id)"
               />
               <label
                 class="btn btn-outline-warning"
