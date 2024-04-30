@@ -34,6 +34,10 @@ app-liste-especes {
   padding: 1%;
   margin-left: 1%;
 }
+a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
 .description p {
   font-style: italic;
